@@ -28,7 +28,7 @@ jobs:
           cache: pip
 
       - name: Installation
-        run: pip install .
+        run: pip install -e .
 
       - name: Diagnostic réseau (le runner joint-il le site de la Bourse ?)
         run: |
