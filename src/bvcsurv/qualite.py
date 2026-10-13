@@ -9,6 +9,11 @@ signale une rupture qui ne vient pas d'échanges normaux (division du nominal no
 ajustée, détachement important, erreur de données). Ces jours sont exclus des
 fenêtres d'événement.
 
+Un trou dans le calendrier lui-même (aucune séance connue d'avril à octobre 2026,
+entre la fin de Kaggle et le début de la collecte) n'est pas une anomalie de prix :
+quand l'écart compte bien plus de jours ouvrés que de séances connues, la
+variation n'est pas contrôlée.
+
 L'historique Kaggle (TradingView) est déjà ajusté des divisions (HPS 2023 et
 Sothema 2021 ne présentent aucun saut) ; les cours collectés en direct ne le sont
 pas.
@@ -23,6 +28,7 @@ from . import DATA
 OUT = DATA / "ref" / "ruptures_prix.csv"
 LIMIT = 0.10
 TOL = 0.005   # marge pour les arrondis au pas de cotation
+MAX_MISSING = 10  # jours ouvrés sans séance connue tolérés (fériés) avant de parler de trou
 
 
 def limit_breaks(px: pd.DataFrame, calendar: pd.Series) -> pd.DataFrame:
@@ -40,9 +46,14 @@ def limit_breaks(px: pd.DataFrame, calendar: pd.Series) -> pd.DataFrame:
     k = df["day"].map(pos) - df["prev_day"].map(pos)
     df["sessions"] = k.fillna(1).clip(lower=1).astype(int)
     df["ratio"] = df["close"] / df["prev"]
+    ok = df["prev_day"].notna()
+    busdays = pd.Series(0, index=df.index)
+    busdays[ok] = np.busday_count(df.loc[ok, "prev_day"].values.astype("datetime64[D]"),
+                                  df.loc[ok, "day"].values.astype("datetime64[D]"))
+    gap = busdays - df["sessions"] > MAX_MISSING
     up = (1 + LIMIT) ** df["sessions"] * (1 + TOL)
     down = (1 - LIMIT) ** df["sessions"] / (1 + TOL)
-    out = df[(df["ratio"] > up) | (df["ratio"] < down)].copy()
+    out = df[((df["ratio"] > up) | (df["ratio"] < down)) & ~gap].copy()
 
     # Aller-retour : un point isolé très éloigné, le cours revient ensuite au niveau
     # d'avant (erreur probable). Les deux jambes sont étiquetées.

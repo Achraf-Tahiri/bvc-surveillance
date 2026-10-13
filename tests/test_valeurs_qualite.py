@@ -38,3 +38,10 @@ def test_limit_breaks():
     f = limit_breaks(px, cal)
     assert list(zip(f.ticker, f.kind)) == [("A", "rupture"), ("C", "aller_retour"), ("C", "aller_retour")]
     assert f.iloc[0]["day"] == d[2].date()
+
+
+def test_calendar_gap_ignored():
+    # Calendrier troué : rien entre mars et octobre. +40 % sur ce trou n'est pas une rupture.
+    cal = pd.Series(pd.to_datetime(["2026-03-26", "2026-03-27", "2026-10-13"]))
+    px = pd.DataFrame({"ticker": ["A"] * 3, "day": list(cal), "close": [100, 101, 141]})
+    assert limit_breaks(px, cal).empty
