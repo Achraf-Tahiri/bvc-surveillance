@@ -1,0 +1,30 @@
+[project]
+name = "bvcsurv"
+version = "0.1.0"
+description = "Surveillance des marchés de la Bourse de Casablanca : étude d'événements et détection de séances atypiques"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = [
+    "requests>=2.31",
+    "certifi",
+    "beautifulsoup4>=4.12",
+    "lxml>=5",
+    "pandas>=2.1",
+    "numpy>=1.26",
+    "psycopg[binary]>=3.1",
+    "python-dotenv>=1",
+]
+
+[project.optional-dependencies]
+analysis = ["scikit-learn>=1.4", "scipy>=1.11", "matplotlib>=3.8"]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

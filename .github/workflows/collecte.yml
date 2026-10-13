@@ -1,0 +1,60 @@
+name: Collecte quotidienne
+
+on:
+  schedule:
+    # Clôture à 15h30 heure de Casablanca. 16h30 et 18h30 UTC restent après la
+    # clôture que le Maroc soit à UTC+0 ou à UTC+1. Lundi à vendredi.
+    - cron: "30 16 * * 1-5"
+    - cron: "30 18 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collecte
+  cancel-in-progress: false
+
+jobs:
+  collecte:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installation
+        run: pip install .
+
+      - name: Diagnostic réseau (le runner joint-il le site de la Bourse ?)
+        run: |
+          curl -sS -o /dev/null -m 30 --cacert <(cat "$(python -c 'import certifi;print(certifi.where())')" certs/*.pem) \
+            -w "casablanca-bourse.com : HTTP %{http_code}, %{time_total} s\n" https://www.casablanca-bourse.com/ || echo "casablanca-bourse.com injoignable"
+          curl -sS -o /dev/null -m 30 -w "ammc.ma : HTTP %{http_code}, %{time_total} s\n" https://www.ammc.ma/fr/communiques-presse-emetteurs || echo "ammc.ma injoignable"
+
+      - name: Cours du jour
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: python -m bvcsurv.live
+
+      - name: Nouvelles publications AMMC
+        if: always()
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: |
+          python -m bvcsurv.ammc update --pages 3
+          if [ -n "$DATABASE_URL" ]; then python -m bvcsurv.ammc load; fi
+
+      - name: Enregistrement des données dans le dépôt
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/live data/ammc
+          if git diff --cached --quiet; then echo "rien de nouveau"; exit 0; fi
+          git commit -m "Collecte du $(date -u +%F)"
+          git push

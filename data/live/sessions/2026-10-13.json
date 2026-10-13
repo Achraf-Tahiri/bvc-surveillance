@@ -1,0 +1,537 @@
+{
+ "session_date": "2026-10-13",
+ "market_status": "Séance ouverte",
+ "closed": false,
+ "indices": {
+  "MASI": {
+   "value": 16966.62,
+   "var_pct": 0.07
+  },
+  "MASI 20": {
+   "value": 1226.7,
+   "var_pct": -0.1
+  }
+ },
+ "capitalisation_mad": 998080926553.0,
+ "volume_global_mad": 195613501.0,
+ "quotes": [
+  {
+   "name": "AFMA",
+   "price": 1250.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "AFRIC INDUSTRIES SA",
+   "price": 327.0,
+   "var_pct": -0.15
+  },
+  {
+   "name": "AFRIQUIA GAZ",
+   "price": 3600.0,
+   "var_pct": -0.53
+  },
+  {
+   "name": "AGMA",
+   "price": 7000.0,
+   "var_pct": 4.79
+  },
+  {
+   "name": "AKDITAL",
+   "price": 1060.0,
+   "var_pct": 2.91
+  },
+  {
+   "name": "ALLIANCES",
+   "price": 327.1,
+   "var_pct": 1.58
+  },
+  {
+   "name": "ALUMINIUM DU MAROC",
+   "price": 1987.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "ARADEI CAPITAL",
+   "price": 433.0,
+   "var_pct": -0.21
+  },
+  {
+   "name": "ATLANTASANAD",
+   "price": 119.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "ATTIJARIWAFA BANK",
+   "price": 667.8,
+   "var_pct": -0.33
+  },
+  {
+   "name": "AUTO HALL",
+   "price": 59.2,
+   "var_pct": -0.42
+  },
+  {
+   "name": "AUTO NEJMA",
+   "price": 5621.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "BALIMA",
+   "price": 199.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "BANK OF AFRICA",
+   "price": 182.0,
+   "var_pct": 1.11
+  },
+  {
+   "name": "BCP",
+   "price": 246.9,
+   "var_pct": 0.37
+  },
+  {
+   "name": "BMCI",
+   "price": 541.1,
+   "var_pct": -0.35
+  },
+  {
+   "name": "CARTIER SAADA",
+   "price": 19.52,
+   "var_pct": 2.74
+  },
+  {
+   "name": "CASH PLUS S.A",
+   "price": 214.0,
+   "var_pct": 1.93
+  },
+  {
+   "name": "CDM",
+   "price": 922.0,
+   "var_pct": -0.86
+  },
+  {
+   "name": "CFG BANK",
+   "price": 192.0,
+   "var_pct": 1.05
+  },
+  {
+   "name": "CIH",
+   "price": 301.1,
+   "var_pct": 0.0
+  },
+  {
+   "name": "CIMENTS DU MAROC",
+   "price": 1406.0,
+   "var_pct": 0.43
+  },
+  {
+   "name": "CMGP GROUP",
+   "price": 260.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "COLORADO",
+   "price": 77.79,
+   "var_pct": 3.03
+  },
+  {
+   "name": "COSUMAR",
+   "price": 175.0,
+   "var_pct": 2.34
+  },
+  {
+   "name": "CTM",
+   "price": 805.0,
+   "var_pct": -0.49
+  },
+  {
+   "name": "DARI COUSPATE",
+   "price": 4180.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "DELATTRE LEVIVIER MAROC",
+   "price": 40.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "DELTA HOLDING",
+   "price": 48.25,
+   "var_pct": 2.22
+  },
+  {
+   "name": "DIAC SALAF",
+   "price": 26.25,
+   "var_pct": 0.0
+  },
+  {
+   "name": "DISTY TECHNOLOGIES",
+   "price": 352.0,
+   "var_pct": 3.83
+  },
+  {
+   "name": "DISWAY",
+   "price": 745.0,
+   "var_pct": -0.27
+  },
+  {
+   "name": "DOUJA PROM ADDOHA",
+   "price": 31.2,
+   "var_pct": 4.03
+  },
+  {
+   "name": "ENNAKL",
+   "price": 47.02,
+   "var_pct": 0.06
+  },
+  {
+   "name": "EQDOM",
+   "price": 1500.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "FENIE BROSSETTE",
+   "price": 314.5,
+   "var_pct": 1.47
+  },
+  {
+   "name": "Holcim Maroc S.A",
+   "price": 1619.0,
+   "var_pct": 6.09
+  },
+  {
+   "name": "HPS",
+   "price": 525.0,
+   "var_pct": 0.77
+  },
+  {
+   "name": "IB MAROC.COM",
+   "price": 53.0,
+   "var_pct": -1.67
+  },
+  {
+   "name": "IMMORENTE INVEST",
+   "price": 90.8,
+   "var_pct": 0.33
+  },
+  {
+   "name": "INVOLYS",
+   "price": 112.2,
+   "var_pct": -2.43
+  },
+  {
+   "name": "ITISSALAT AL-MAGHRIB",
+   "price": 90.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "JET CONTRACTORS",
+   "price": 1480.0,
+   "var_pct": -1.33
+  },
+  {
+   "name": "LABEL VIE",
+   "price": 3900.0,
+   "var_pct": 3.17
+  },
+  {
+   "name": "LESIEUR CRISTAL",
+   "price": 295.8,
+   "var_pct": 5.64
+  },
+  {
+   "name": "M2M Group",
+   "price": 391.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "MAGHREB OXYGENE",
+   "price": 386.9,
+   "var_pct": -0.54
+  },
+  {
+   "name": "MAGHREBAIL",
+   "price": 899.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "MANAGEM",
+   "price": 1503.0,
+   "var_pct": 1.62
+  },
+  {
+   "name": "MAROC LEASING",
+   "price": 374.9,
+   "var_pct": 0.0
+  },
+  {
+   "name": "MED PAPER",
+   "price": 23.81,
+   "var_pct": 3.03
+  },
+  {
+   "name": "MICRODATA",
+   "price": 742.1,
+   "var_pct": 0.01
+  },
+  {
+   "name": "MINIERE TOUISSIT",
+   "price": 4056.0,
+   "var_pct": -2.92
+  },
+  {
+   "name": "MUTANDIS SCA",
+   "price": 219.3,
+   "var_pct": 2.0
+  },
+  {
+   "name": "OULMES",
+   "price": 1189.0,
+   "var_pct": -2.94
+  },
+  {
+   "name": "PROMOPHARM S.A.",
+   "price": 1480.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "REALISATIONS MECANIQUES",
+   "price": 449.0,
+   "var_pct": -2.25
+  },
+  {
+   "name": "REBAB COMPANY",
+   "price": 103.6,
+   "var_pct": 5.96
+  },
+  {
+   "name": "RESIDENCES DAR SAADA",
+   "price": 155.0,
+   "var_pct": 2.65
+  },
+  {
+   "name": "RISMA",
+   "price": 296.0,
+   "var_pct": 0.63
+  },
+  {
+   "name": "S.M MONETIQUE",
+   "price": 502.8,
+   "var_pct": 6.75
+  },
+  {
+   "name": "SALAFIN",
+   "price": 418.0,
+   "var_pct": -0.71
+  },
+  {
+   "name": "SAMIR",
+   "price": 127.8,
+   "var_pct": 0.0
+  },
+  {
+   "name": "SANLAM MAROC",
+   "price": 2923.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "SGTM S.A",
+   "price": 592.0,
+   "var_pct": 0.34
+  },
+  {
+   "name": "SMI",
+   "price": 5869.0,
+   "var_pct": -0.19
+  },
+  {
+   "name": "SNEP",
+   "price": 281.15,
+   "var_pct": 0.41
+  },
+  {
+   "name": "SOCIETE DES BOISSONS DU MAROC",
+   "price": 2086.0,
+   "var_pct": 5.35
+  },
+  {
+   "name": "SODEP-Marsa Maroc",
+   "price": 760.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "SONASID",
+   "price": 1667.0,
+   "var_pct": 1.03
+  },
+  {
+   "name": "SOTHEMA",
+   "price": 313.0,
+   "var_pct": 6.1
+  },
+  {
+   "name": "STOKVIS NORD AFRIQUE",
+   "price": 48.99,
+   "var_pct": -0.02
+  },
+  {
+   "name": "STROC INDUSTRIE",
+   "price": 153.05,
+   "var_pct": 0.03
+  },
+  {
+   "name": "T2S GROUP HOLDING",
+   "price": 200.1,
+   "var_pct": 0.05
+  },
+  {
+   "name": "TAQA MOROCCO",
+   "price": 1600.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "TGCC S.A",
+   "price": 653.0,
+   "var_pct": 0.46
+  },
+  {
+   "name": "TOTALENERGIES MARKETING MAROC",
+   "price": 1340.0,
+   "var_pct": -0.45
+  },
+  {
+   "name": "UNIMER",
+   "price": 169.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "VICENNE",
+   "price": 293.0,
+   "var_pct": 3.17
+  },
+  {
+   "name": "WAFA ASSURANCE",
+   "price": 4765.0,
+   "var_pct": 0.11
+  },
+  {
+   "name": "ZELLIDJA S.A",
+   "price": 260.0,
+   "var_pct": 0.0
+  }
+ ],
+ "tops": [
+  {
+   "kind": "volume",
+   "rank": 1,
+   "name": "ATTIJARIWAFA BANK",
+   "value": 15020147.0
+  },
+  {
+   "kind": "volume",
+   "rank": 2,
+   "name": "SODEP-Marsa Maroc",
+   "value": 3556553.0
+  },
+  {
+   "kind": "volume",
+   "rank": 3,
+   "name": "HPS",
+   "value": 3114284.0
+  },
+  {
+   "kind": "volume",
+   "rank": 4,
+   "name": "AKDITAL",
+   "value": 2323518.0
+  },
+  {
+   "kind": "hausses",
+   "rank": 1,
+   "name": "S.M MONETIQUE",
+   "price": 502.8,
+   "value": 6.75
+  },
+  {
+   "kind": "hausses",
+   "rank": 2,
+   "name": "SOTHEMA",
+   "price": 313.0,
+   "value": 6.1
+  },
+  {
+   "kind": "hausses",
+   "rank": 3,
+   "name": "Holcim Maroc S.A",
+   "price": 1619.0,
+   "value": 6.09
+  },
+  {
+   "kind": "hausses",
+   "rank": 4,
+   "name": "REBAB COMPANY",
+   "price": 103.6,
+   "value": 5.96
+  },
+  {
+   "kind": "baisses",
+   "rank": 1,
+   "name": "OULMES",
+   "price": 1189.0,
+   "value": -2.94
+  },
+  {
+   "kind": "baisses",
+   "rank": 2,
+   "name": "MINIERE TOUISSIT",
+   "price": 4056.0,
+   "value": -2.92
+  },
+  {
+   "kind": "baisses",
+   "rank": 3,
+   "name": "INVOLYS",
+   "price": 112.2,
+   "value": -2.43
+  },
+  {
+   "kind": "baisses",
+   "rank": 4,
+   "name": "REALISATIONS MECANIQUES",
+   "price": 449.0,
+   "value": -2.25
+  }
+ ],
+ "futures": [
+  {
+   "contract": "MASI20 FUTURE DEC26",
+   "price": null,
+   "var_pct": 0.0
+  },
+  {
+   "contract": "MASI20 FUTURE MAR27",
+   "price": null,
+   "var_pct": 0.0
+  },
+  {
+   "contract": "MASI20 FUTURE JUI27",
+   "price": null,
+   "var_pct": 0.0
+  },
+  {
+   "contract": "MASI20 FUTURE SEP27",
+   "price": null,
+   "var_pct": 0.0
+  }
+ ],
+ "communique_links": [
+  "/sites/default/files/pemetteur/2026-09/cp_t2s_group_s1_26.pdf",
+  "/sites/default/files/pemetteur/2026-10/cp_attijariwafa_bank_accord_acquisition_participation_sg_ghana.pdf",
+  "/sites/default/files/pemetteur/2026-10/cp_disty_technologies_changement_ca.pdf",
+  "/sites/default/files/pemetteur/2026-10/ennakl_automobiles_s1_26.pdf"
+ ],
+ "fingerprint": "ee4d3282a0743539",
+ "same_prices_as_previous_session": false,
+ "fetched_at_utc": "2026-10-13T09:41:07+00:00"
+}
