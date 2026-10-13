@@ -4,16 +4,16 @@
  "closed": false,
  "indices": {
   "MASI": {
-   "value": 17064.52,
-   "var_pct": 0.65
+   "value": 17098.13,
+   "var_pct": 0.85
   },
   "MASI 20": {
-   "value": 1234.27,
-   "var_pct": 0.51
+   "value": 1234.69,
+   "var_pct": 0.55
   }
  },
- "capitalisation_mad": 1003517847969.0,
- "volume_global_mad": 76122237.0,
+ "capitalisation_mad": 1007562691622.0,
+ "volume_global_mad": 112994797.0,
  "quotes": [
   {
    "name": "AFMA",
@@ -42,8 +42,8 @@
   },
   {
    "name": "ALLIANCES",
-   "price": 338.0,
-   "var_pct": 3.33
+   "price": 338.2,
+   "var_pct": 3.39
   },
   {
    "name": "ALUMINIUM DU MAROC",
@@ -52,8 +52,8 @@
   },
   {
    "name": "ARADEI CAPITAL",
-   "price": 432.0,
-   "var_pct": -0.23
+   "price": 430.0,
+   "var_pct": -0.69
   },
   {
    "name": "ATLANTASANAD",
@@ -82,8 +82,8 @@
   },
   {
    "name": "BANK OF AFRICA",
-   "price": 184.0,
-   "var_pct": 1.1
+   "price": 183.9,
+   "var_pct": 1.04
   },
   {
    "name": "BCP",
@@ -102,13 +102,13 @@
   },
   {
    "name": "CASH PLUS S.A",
-   "price": 214.0,
-   "var_pct": 0.0
+   "price": 215.0,
+   "var_pct": 0.47
   },
   {
    "name": "CDM",
-   "price": 915.0,
-   "var_pct": -0.76
+   "price": 920.0,
+   "var_pct": -0.22
   },
   {
    "name": "CFG BANK",
@@ -117,23 +117,23 @@
   },
   {
    "name": "CIH",
-   "price": 308.5,
-   "var_pct": 2.46
+   "price": 308.0,
+   "var_pct": 2.29
   },
   {
    "name": "CIMENTS DU MAROC",
-   "price": 1450.0,
-   "var_pct": 3.13
+   "price": 1425.0,
+   "var_pct": 1.35
   },
   {
    "name": "CMGP GROUP",
-   "price": 267.85,
-   "var_pct": 3.02
+   "price": 267.8,
+   "var_pct": 3.0
   },
   {
    "name": "COLORADO",
-   "price": 77.92,
-   "var_pct": 0.17
+   "price": 77.9,
+   "var_pct": 0.14
   },
   {
    "name": "COSUMAR",
@@ -142,8 +142,8 @@
   },
   {
    "name": "CTM",
-   "price": 780.9,
-   "var_pct": -2.99
+   "price": 804.9,
+   "var_pct": -0.01
   },
   {
    "name": "DARI COUSPATE",
@@ -157,8 +157,8 @@
   },
   {
    "name": "DELTA HOLDING",
-   "price": 51.0,
-   "var_pct": 5.7
+   "price": 51.45,
+   "var_pct": 6.63
   },
   {
    "name": "DIAC SALAF",
@@ -172,13 +172,13 @@
   },
   {
    "name": "DISWAY",
-   "price": 731.0,
-   "var_pct": -1.88
+   "price": 755.0,
+   "var_pct": 1.34
   },
   {
    "name": "DOUJA PROM ADDOHA",
-   "price": 33.2,
-   "var_pct": 6.41
+   "price": 33.45,
+   "var_pct": 7.21
   },
   {
    "name": "ENNAKL",
@@ -192,8 +192,8 @@
   },
   {
    "name": "FENIE BROSSETTE",
-   "price": 322.0,
-   "var_pct": 2.38
+   "price": 325.0,
+   "var_pct": 3.34
   },
   {
    "name": "Holcim Maroc S.A",
@@ -202,8 +202,8 @@
   },
   {
    "name": "HPS",
-   "price": 530.0,
-   "var_pct": 0.95
+   "price": 525.0,
+   "var_pct": 0.0
   },
   {
    "name": "IB MAROC.COM",
@@ -217,13 +217,13 @@
   },
   {
    "name": "INVOLYS",
-   "price": 117.9,
-   "var_pct": 5.08
+   "price": 117.0,
+   "var_pct": 4.28
   },
   {
    "name": "ITISSALAT AL-MAGHRIB",
-   "price": 91.0,
-   "var_pct": 1.11
+   "price": 91.9,
+   "var_pct": 2.11
   },
   {
    "name": "JET CONTRACTORS",
@@ -237,8 +237,8 @@
   },
   {
    "name": "LESIEUR CRISTAL",
-   "price": 296.0,
-   "var_pct": 0.07
+   "price": 290.0,
+   "var_pct": -1.96
   },
   {
    "name": "M2M Group",
@@ -257,8 +257,8 @@
   },
   {
    "name": "MANAGEM",
-   "price": 1515.0,
-   "var_pct": 0.8
+   "price": 1540.0,
+   "var_pct": 2.46
   },
   {
    "name": "MAROC LEASING",
@@ -267,8 +267,8 @@
   },
   {
    "name": "MED PAPER",
-   "price": 22.13,
-   "var_pct": -7.06
+   "price": 22.47,
+   "var_pct": -5.63
   },
   {
    "name": "MICRODATA",
@@ -307,13 +307,13 @@
   },
   {
    "name": "RESIDENCES DAR SAADA",
-   "price": 160.0,
-   "var_pct": 3.23
+   "price": 162.0,
+   "var_pct": 4.52
   },
   {
    "name": "RISMA",
-   "price": 290.65,
-   "var_pct": -1.81
+   "price": 296.0,
+   "var_pct": 0.0
   },
   {
    "name": "S.M MONETIQUE",
@@ -342,13 +342,13 @@
   },
   {
    "name": "SMI",
-   "price": 5723.0,
-   "var_pct": -2.49
+   "price": 5800.0,
+   "var_pct": -1.18
   },
   {
    "name": "SNEP",
-   "price": 289.0,
-   "var_pct": 2.79
+   "price": 297.0,
+   "var_pct": 5.64
   },
   {
    "name": "SOCIETE DES BOISSONS DU MAROC",
@@ -357,13 +357,13 @@
   },
   {
    "name": "SODEP-Marsa Maroc",
-   "price": 753.0,
-   "var_pct": -0.92
+   "price": 750.0,
+   "var_pct": -1.32
   },
   {
    "name": "SONASID",
-   "price": 1676.0,
-   "var_pct": 0.54
+   "price": 1678.0,
+   "var_pct": 0.66
   },
   {
    "name": "SOTHEMA",
@@ -372,28 +372,28 @@
   },
   {
    "name": "STOKVIS NORD AFRIQUE",
-   "price": 49.0,
-   "var_pct": 0.02
+   "price": 49.9,
+   "var_pct": 1.86
   },
   {
    "name": "STROC INDUSTRIE",
-   "price": 153.05,
-   "var_pct": 0.0
+   "price": 159.8,
+   "var_pct": 4.41
   },
   {
    "name": "T2S GROUP HOLDING",
-   "price": 205.0,
-   "var_pct": 2.45
+   "price": 208.9,
+   "var_pct": 4.4
   },
   {
    "name": "TAQA MOROCCO",
-   "price": 1576.0,
-   "var_pct": -1.5
+   "price": 1600.0,
+   "var_pct": 0.0
   },
   {
    "name": "TGCC S.A",
-   "price": 650.0,
-   "var_pct": -0.46
+   "price": 646.0,
+   "var_pct": -1.07
   },
   {
    "name": "TOTALENERGIES MARKETING MAROC",
@@ -426,46 +426,46 @@
    "kind": "volume",
    "rank": 1,
    "name": "ATTIJARIWAFA BANK",
-   "value": 35120940.0
+   "value": 44789111.0
   },
   {
    "kind": "volume",
    "rank": 2,
    "name": "TGCC S.A",
-   "value": 19101925.0
+   "value": 30807487.0
   },
   {
    "kind": "volume",
    "rank": 3,
    "name": "SODEP-Marsa Maroc",
-   "value": 8195921.0
+   "value": 12385533.0
   },
   {
    "kind": "volume",
    "rank": 4,
-   "name": "DOUJA PROM ADDOHA",
-   "value": 3925929.0
+   "name": "CDM",
+   "value": 4851284.0
   },
   {
    "kind": "hausses",
    "rank": 1,
    "name": "DOUJA PROM ADDOHA",
-   "price": 33.2,
-   "value": 6.41
+   "price": 33.45,
+   "value": 7.21
   },
   {
    "kind": "hausses",
    "rank": 2,
    "name": "DELTA HOLDING",
-   "price": 51.0,
-   "value": 5.7
+   "price": 51.45,
+   "value": 6.63
   },
   {
    "kind": "hausses",
    "rank": 3,
-   "name": "INVOLYS",
-   "price": 117.9,
-   "value": 5.08
+   "name": "SNEP",
+   "price": 297.0,
+   "value": 5.64
   },
   {
    "kind": "hausses",
@@ -478,29 +478,29 @@
    "kind": "baisses",
    "rank": 1,
    "name": "MED PAPER",
-   "price": 22.13,
-   "value": -7.06
+   "price": 22.47,
+   "value": -5.63
   },
   {
    "kind": "baisses",
    "rank": 2,
-   "name": "CTM",
-   "price": 780.9,
-   "value": -2.99
+   "name": "LESIEUR CRISTAL",
+   "price": 290.0,
+   "value": -1.96
   },
   {
    "kind": "baisses",
    "rank": 3,
-   "name": "SMI",
-   "price": 5723.0,
-   "value": -2.49
+   "name": "MAGHREB OXYGENE",
+   "price": 380.0,
+   "value": -1.78
   },
   {
    "kind": "baisses",
    "rank": 4,
-   "name": "DISWAY",
-   "price": 731.0,
-   "value": -1.88
+   "name": "SODEP-Marsa Maroc",
+   "price": 750.0,
+   "value": -1.32
   }
  ],
  "futures": [
@@ -526,12 +526,12 @@
   }
  ],
  "communique_links": [
+  "/sites/default/files/pemetteur/2026-09/alm_s1_26.pdf",
   "/sites/default/files/pemetteur/2026-10/cp_attijariwafa_bank_accord_acquisition_participation_sg_ghana.pdf",
   "/sites/default/files/pemetteur/2026-10/cp_disty_technologies_changement_ca.pdf",
-  "/sites/default/files/pemetteur/2026-10/ennakl_automobiles_s1_26.pdf",
-  "/sites/default/files/pemetteur/2026-10/jet_contractors_s1_26.pdf"
+  "/sites/default/files/pemetteur/2026-10/ennakl_automobiles_s1_26.pdf"
  ],
- "fingerprint": "a0080450348d0ea7",
+ "fingerprint": "0211f75ef250cc22",
  "same_prices_as_previous_session": false,
- "fetched_at_utc": "2026-10-13T11:03:55+00:00"
+ "fetched_at_utc": "2026-10-13T11:46:14+00:00"
 }
