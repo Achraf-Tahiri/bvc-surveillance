@@ -62,9 +62,33 @@ def upsert_live(conn: psycopg.Connection, snap: dict) -> None:
             "INSERT INTO live_tops VALUES (%s,%s,%s,%s,%s,%s)",
             [(d, t["kind"], t["rank"], t["name"], t.get("price"), t["value"]) for t in snap["tops"]],
         )
-        # Les cours de clôture prolongent l'historique (sans OHLV : seul le dernier cours est publié).
-        # On ignore les jours où la page n'a pas changé (férié probable).
-        if snap["closed"] and not snap["same_prices_as_previous_session"]:
+        stocks = snap.get("stocks")
+        cur.execute("DELETE FROM live_stocks WHERE session_date=%s", (d,))
+        if stocks:
+            cols = ["ticker", "status", "open", "high", "low", "last", "reference", "var_pct",
+                    "volume_mad", "quantity", "trades", "capitalisation_mad", "shares"]
+            cur.executemany(
+                f"INSERT INTO live_stocks (session_date, {', '.join(cols)}) "
+                f"VALUES (%s, {', '.join(['%s'] * len(cols))})",
+                [(d, *(q[c] for c in cols)) for q in stocks],
+            )
+        # Les cours de clôture prolongent l'historique. On ignore les jours où la page
+        # n'a pas changé (férié probable).
+        if snap["closed"] and not snap["same_prices_as_previous_session"] and stocks:
+            # Comme dans Kaggle : une ligne seulement pour les valeurs échangées, volume en titres.
+            cur.execute(
+                """INSERT INTO prices_daily (ticker, day, open, high, low, close, volume, source)
+                   SELECT ticker, session_date, open, high, low, last, quantity, 'live'
+                   FROM live_stocks
+                   WHERE session_date = %s AND status = 'T' AND quantity > 0 AND last IS NOT NULL
+                   ON CONFLICT (ticker, day) DO UPDATE SET
+                     open = EXCLUDED.open, high = EXCLUDED.high, low = EXCLUDED.low,
+                     close = EXCLUDED.close, volume = EXCLUDED.volume
+                   WHERE prices_daily.source = 'live'""",
+                (d,),
+            )
+        elif snap["closed"] and not snap["same_prices_as_previous_session"]:
+            # Repli sans la page des actions : dernier cours du bandeau, sans OHLV.
             cur.execute(
                 """INSERT INTO prices_daily (ticker, day, close, source)
                    SELECT i.ticker, q.session_date, q.price, 'live'
@@ -74,6 +98,7 @@ def upsert_live(conn: psycopg.Connection, snap: dict) -> None:
                    WHERE prices_daily.source = 'live'""",
                 (d,),
             )
+        if snap["closed"] and not snap["same_prices_as_previous_session"]:
             for name, ticker in INDEX_TICKERS.items():
                 v = snap["indices"].get(name, {}).get("value")
                 if v is not None:

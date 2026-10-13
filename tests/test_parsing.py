@@ -1,7 +1,7 @@
 from pathlib import Path
 
 from bvcsurv.ammc import parse_page, split_title
-from bvcsurv.live import parse_home
+from bvcsurv.live import is_closed_text, parse_actions, parse_home
 from bvcsurv.parsing import fr_date, fr_number
 
 FIX = Path(__file__).parent / "fixtures"
@@ -52,3 +52,27 @@ def test_parse_ammc_page():
     assert rows[0]["published_at"] == "2026-10-07T09:51:31Z"
     assert rows[0]["issuer_raw"] == "Auto Nejma"
     assert rows[0]["pdf_url"].startswith("https://www.ammc.ma/sites/default/files/")
+
+
+def test_parse_home_closed():
+    s = parse_home((FIX / "bvc_home_2026-10-13_closed.html").read_text(encoding="utf-8"))
+    assert s["session_date"] == "2026-10-13"
+    assert s["market_status"] == "Séance fermée" and s["closed"]
+    assert len(s["quotes"]) == 81
+
+
+def test_is_closed_text():
+    assert is_closed_text("Séance fermée") and is_closed_text("Séance clôturée")
+    assert not is_closed_text("Séance ouverte")
+
+
+def test_parse_actions():
+    status, stocks = parse_actions((FIX / "bvc_actions_2026-10-13_closed.html").read_text(encoding="utf-8"))
+    assert status == "closed" and len(stocks) == 81
+    s = {x["ticker"]: x for x in stocks}
+    assert s["ATW"]["status"] == "T"
+    assert (s["ATW"]["open"], s["ATW"]["high"], s["ATW"]["low"], s["ATW"]["last"]) == (670, 673, 665.1, 667.2)
+    assert s["ATW"]["quantity"] == 76120
+    assert {x["status"] for x in stocks} <= {"T", "NT", "S"}
+    status, _ = parse_actions((FIX / "bvc_actions_2026-10-13.html").read_text(encoding="utf-8"))
+    assert status == "open"

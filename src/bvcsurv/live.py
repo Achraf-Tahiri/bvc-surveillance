@@ -1,11 +1,13 @@
-"""Collecteur quotidien : page d'accueil de casablanca-bourse.com.
+"""Collecteur quotidien : casablanca-bourse.com.
 
-Usage : python -m bvcsurv.live [--no-db] [--html FICHIER]
+Usage : python -m bvcsurv.live [--no-db] [--html FICHIER] [--actions-html FICHIER]
 
 Chaque exécution :
-1. télécharge la page d'accueil (HTML rendu côté serveur) ;
+1. télécharge la page d'accueil (HTML rendu côté serveur) et la page
+   /live-market/actions (JSON intégré : ouverture, plus haut, plus bas, dernier
+   cours, volume et quantité de chaque valeur, statut de la séance) ;
 2. archive le HTML brut compressé dans data/live/raw/ (pour pouvoir relire
-   la page si le parseur change) ;
+   les pages si le parseur change) ;
 3. extrait cours, variations, indices, tops et contrats à terme ;
 4. écrit un instantané JSON par séance dans data/live/sessions/ ;
 5. si DATABASE_URL est défini, insère ou met à jour la base PostgreSQL.
@@ -23,8 +25,10 @@ from bs4 import BeautifulSoup
 from . import DATA
 from .http import get, session
 from .parsing import fr_date, fr_number
+from .valeurs import settings
 
 URL = "https://www.casablanca-bourse.com/fr"
+ACTIONS_URL = "https://www.casablanca-bourse.com/live-market/actions"
 LIVE = DATA / "live"
 
 
@@ -102,7 +106,7 @@ def parse_home(html: str) -> dict:
     return {
         "session_date": session_date.isoformat(),
         "market_status": status,
-        "closed": "ferm" in status.lower(),
+        "closed": is_closed_text(status),
         "indices": indices,
         "capitalisation_mad": capitalisation,
         "volume_global_mad": volume_global,
@@ -113,18 +117,50 @@ def parse_home(html: str) -> dict:
     }
 
 
+def is_closed_text(status: str) -> bool:
+    s = status.lower()
+    return "ferm" in s or "clôtur" in s or "clotur" in s
+
+
+def parse_actions(html: str) -> tuple[str | None, list[dict]]:
+    """Statut de séance (« open » ou « closed ») et détail des valeurs de /live-market/actions."""
+    lm = settings(html)["live_market"]
+    stocks = []
+    for a in lm["actions"]:
+        stocks.append({
+            "ticker": a["symbol"].strip(),
+            "status": a["statut"]["fr"],          # T traité, NT non traité, S suspendu
+            "open": a.get("ouverture"),
+            "high": a.get("plusHaut"),
+            "low": a.get("plusBas"),
+            "last": a.get("dernierCours"),
+            "reference": a.get("reference"),
+            "var_pct": a.get("variation"),
+            "volume_mad": a.get("volume"),
+            "quantity": a.get("quantite"),
+            "trades": a.get("nbTransactions"),
+            "capitalisation_mad": a.get("capitalisation"),
+            "shares": a.get("nombreTitres"),
+        })
+    return (lm.get("session") or {}).get("status"), stocks
+
+
 def fingerprint(snap: dict) -> str:
     key = json.dumps([(q["name"], q["price"]) for q in snap["quotes"]], sort_keys=True)
     return hashlib.sha256(key.encode()).hexdigest()[:16]
 
 
-def save_snapshot(snap: dict, html: str, fetched_at: datetime) -> tuple[str, bool]:
+def save_snapshot(snap: dict, html: str, fetched_at: datetime,
+                  actions_html: str | None = None) -> tuple[str, bool]:
     """Archive le HTML, écrit le JSON de la séance. Retourne (chemin, écrit ?)."""
     d = snap["session_date"]
     raw = LIVE / "raw" / d
     raw.mkdir(parents=True, exist_ok=True)
     with gzip.open(raw / f"{fetched_at:%H%M%S}Z.html.gz", "wt", encoding="utf-8") as f:
         f.write(html)
+    if actions_html:
+        with gzip.open(raw / f"{fetched_at:%H%M%S}Z_actions.html.gz", "wt", encoding="utf-8") as f:
+            f.write(actions_html)
 
     sessions = LIVE / "sessions"
     sessions.mkdir(parents=True, exist_ok=True)
@@ -152,13 +188,15 @@ def main(argv=None) -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--no-db", action="store_true", help="ne pas écrire dans PostgreSQL")
     ap.add_argument("--html", help="relire un fichier HTML local au lieu du site")
+    ap.add_argument("--actions-html", help="relire une page /live-market/actions locale")
     args = ap.parse_args(argv)
 
     fetched_at = datetime.now(timezone.utc)
+    s = session()
     if args.html:
         html = open(args.html, encoding="utf-8").read()
     else:
-        html = get(session(), URL, timeout=60).text
+        html = get(s, URL, timeout=60).text
 
     snap = parse_home(html)
     n = len(snap["quotes"])
@@ -166,9 +204,26 @@ def main(argv=None) -> int:
         print(f"ERREUR : page incomplète ({n} valeurs, indices={list(snap['indices'])})", file=sys.stderr)
         return 2
 
-    path, written = save_snapshot(snap, html, fetched_at)
+    # Page des actions : complément (OHLC et volume par valeur). Son échec ne bloque pas la collecte.
+    actions_html, api_status, stocks = None, None, None
+    try:
+        if args.actions_html:
+            actions_html = open(args.actions_html, encoding="utf-8").read()
+        elif not args.html:
+            actions_html = get(s, ACTIONS_URL, timeout=60).text
+        if actions_html:
+            api_status, stocks = parse_actions(actions_html)
+    except Exception as e:  # noqa: BLE001
+        print(f"ATTENTION : page des actions inutilisable ({type(e).__name__}: {e})", file=sys.stderr)
+    snap["api_session_status"] = api_status
+    snap["stocks"] = stocks
+    # Deux sources pour la clôture : le texte de la page d'accueil et l'indicateur de la page des actions.
+    snap["closed"] = snap["closed"] or api_status == "closed"
+
+    path, written = save_snapshot(snap, html, fetched_at, actions_html)
     masi = snap["indices"]["MASI"]
-    print(f"séance {snap['session_date']} | {snap['market_status']} | {n} valeurs | "
+    print(f"séance {snap['session_date']} | {snap['market_status']} (page des actions : {api_status}) | "
+          f"{n} valeurs, détail de {len(stocks or [])} | "
           f"MASI {masi['value']} ({masi['var_pct']:+.2f} %) | {'écrit' if written else 'conservé'} {path}")
     if snap["same_prices_as_previous_session"]:
         print("ATTENTION : cours identiques à la séance précédente (jour férié ?)")

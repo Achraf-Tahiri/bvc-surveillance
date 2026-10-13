@@ -41,6 +41,11 @@ jobs:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
         run: python -m bvcsurv.live
 
+      - name: Contrôle des sauts de prix
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: if [ -n "$DATABASE_URL" ]; then python -m bvcsurv.qualite; fi
+
       - name: Nouvelles publications AMMC
         if: always()
         env:

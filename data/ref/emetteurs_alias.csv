@@ -1,0 +1,240 @@
+alias,ticker,statut,du,au,note
+Addoha,ADH,cotee,,,
+Douja Promotion Groupe Addoha,ADH,cotee,,,
+Douja Prom Addoha,ADH,cotee,,,
+ADI,ADI,cotee,,,
+Alliances,ADI,cotee,,,
+Alliances Développement Immobilier,ADI,cotee,,,
+Afric Industries,AFI,cotee,,,
+Afric Industrie,AFI,cotee,,,
+Afrin Industries,AFI,cotee,,,faute de frappe
+AFMA,AFM,cotee,,,
+Agma,AGM,cotee,,,
+Agma Lahlou Tazi,AGM,cotee,,,ancien nom
+Akdital,AKT,cotee,,,
+Aluminium du Maroc,ALM,cotee,,,
+Aluminiumr du Maroc,ALM,cotee,,,faute de frappe
+Aradei Capital,ARD,cotee,,,
+Aradei Capital et LabelVie,,plusieurs,,,communiqué commun à ARD et LBV : non attribuable à une seule valeur
+Aardei Capital,ARD,cotee,,,faute de frappe
+Araddei Capital,ARD,cotee,,,faute de frappe
+Auto Hall,ATH,cotee,,,
+AtlantaSanad,ATL,cotee,,,
+Atlanta,ATL,cotee,,,ancien nom avant la fusion avec Sanad (série Kaggle ATL continue depuis 2012)
+AtlanaSanad,ATL,cotee,,,faute de frappe
+AtlandaSanad,ATL,cotee,,,faute de frappe
+AltantaSanad,ATL,cotee,,,faute de frappe
+Attijariwafa Bank,ATW,cotee,,,
+AWB,ATW,cotee,,,abréviation courante
+Attijariwa bank,ATW,cotee,,,faute de frappe
+Attiajriwafa bank,ATW,cotee,,,faute de frappe
+Balima,BAL,cotee,,,
+BMCI,BCI,cotee,,,
+BCP,BCP,cotee,,,
+Bank of Africa,BOA,cotee,,,
+BOA,BOA,cotee,,,
+BMCE Bank of Africa,BOA,cotee,,,ancien nom (cours Kaggle BOA seulement depuis le 23/03/2020)
+BMCE Bank,BOA,cotee,,,ancien nom (cours Kaggle BOA seulement depuis le 23/03/2020)
+BMCE,BOA,cotee,,,ancien nom (cours Kaggle BOA seulement depuis le 23/03/2020)
+Cash Plus,CAP,cotee,,,
+CDM,CDM,cotee,,,
+Crédit du Maroc,CDM,cotee,,,
+CFG Bank,CFG,cotee,,,
+CFG,CFG,cotee,,,
+CFG Group,CFG,cotee,,,ancien nom de la holding (cours Kaggle CFG seulement depuis le 18/12/2023)
+CIH,CIH,cotee,,,
+CIH Bank,CIH,cotee,,,
+Ciments du Maroc,CMA,cotee,,,
+Ciment du Maroc,CMA,cotee,,,
+Cimens du Maroc,CMA,cotee,,,faute de frappe
+CMGP Group,CMG,cotee,,,
+CMGP,CMG,cotee,,,
+CMT,CMT,cotee,,,
+Minière Touissit,CMT,cotee,,,
+Compagnie Minière de Touissit,CMT,cotee,,,
+Colorado,COL,cotee,,,
+Cartier Saada,CRS,cotee,,,
+Cosumar,CSR,cotee,,,
+CTM,CTM,cotee,,,
+Delta Holding,DHO,cotee,,,
+Dari Couspate,DRI,cotee,,,
+Dari,DRI,cotee,,,
+Disway,DWY,cotee,,,
+Disty Technologies,DYT,cotee,,,
+Disty Technolgies,DYT,cotee,,,faute de frappe
+Eqdom,EQD,cotee,,,
+Fénié Brossette,FBR,cotee,,,
+Fénié Brossete,FBR,cotee,,,faute de frappe
+Afriquia Gaz,GAZ,cotee,,,
+SGTM,GTM,cotee,,,
+HPS,HPS,cotee,,,
+Maroc Telecom,IAM,cotee,,,
+Marco Telecom,IAM,cotee,,,faute de frappe
+IAM,IAM,cotee,,,
+Itissalat Al-Maghrib,IAM,cotee,,,
+IB Maroc,IBC,cotee,,,
+IB Maroc.com,IBC,cotee,,,
+Immorente Invest,IMO,cotee,,,
+Immorente,IMO,cotee,,,
+Involys,INV,cotee,,,
+Jet Contractors,JET,cotee,,,
+LabelVie,LBV,cotee,,,
+Label Vie,LBV,cotee,,,
+Lesieur Cristal,LES,cotee,,,
+Lesieur,LES,cotee,,,
+LafargeHolcim Maroc,LHM,cotee,,,
+LafargeHolcim,LHM,cotee,,,
+LafargeHocim Maroc,LHM,cotee,,,faute de frappe
+Holcim Maroc,LHM,cotee,2016-07-15,,nom repris en 2026 par LafargeHolcim Maroc
+Holcim,LHM,cotee,2016-07-15,,
+Holcim Maroc,,sans_historique,,2016-07-14,ancienne Holcim Maroc absorbée par Lafarge Ciments en 2016
+Holcim,,sans_historique,,2016-07-14,ancienne Holcim Maroc absorbée par Lafarge Ciments en 2016
+Lafarge Ciments,,sans_historique,,,devenue LafargeHolcim Maroc en 2016 ; cours Kaggle LHM seulement depuis le 15/07/2016
+M2M,M2M,cotee,,,
+M2M Group,M2M,cotee,,,
+MM group,M2M,cotee,,,faute de frappe
+Maghrebail,MAB,cotee,,,
+Magrhébail,MAB,cotee,,,faute de frappe
+Med Paper,MDP,cotee,,,
+Microdata,MIC,cotee,,,
+Maroc Leasing,MLE,cotee,,,
+Managem,MNG,cotee,,,
+Maghreb Oxygène,MOX,cotee,,,
+Marsa Maroc,MSA,cotee,,,
+SODEP-Marsa Maroc,MSA,cotee,,,
+Mutandis,MUT,cotee,,,
+Mutandis SCA,MUT,cotee,,,
+Auto Nejma,NEJ,cotee,,,
+Ennakl Automobiles,NKL,cotee,,,
+Ennakl Automobile,NKL,cotee,,,
+Ennakl Autombiles,NKL,cotee,,,faute de frappe
+Ennakl,NKL,cotee,,,
+Oulmès,OUL,cotee,,,
+Les Eaux Minérales d'Oulmès,OUL,cotee,,,
+Promopharm,PRO,cotee,,,
+RDS,RDS,cotee,,,
+Résidences Dar Saada,RDS,cotee,,,
+Rebab Company,REB,cotee,,,
+Rebab,REB,cotee,,,
+Risma,RIS,cotee,,,
+S2M,S2M,cotee,,,
+S.M Monetique,S2M,cotee,,,
+Sanlam Maroc,SAH,cotee,,,
+Sanlam,SAH,cotee,,,
+Saham Assurance,SAH,cotee,,,ancien nom de Sanlam Maroc
+Saham Assurances,SAH,cotee,,,ancien nom de Sanlam Maroc
+CNIA Saada Assurance,SAH,cotee,,,ancien nom de Saham Assurance (cours Kaggle SAH seulement depuis le 02/04/2014)
+SBM,SBM,cotee,,,
+Société des Boissons du Maroc,SBM,cotee,,,
+Brasseries du Maroc,SBM,cotee,,,ancien nom (série Kaggle SBM continue depuis 2012)
+Sonasid,SID,cotee,,,
+Salafin,SLF,cotee,,,
+Salafin-Taslif,SLF,cotee,,,
+SMI,SMI,cotee,,,
+Stokvis Nord Afrique,SNA,cotee,,,
+Stokvis NA,SNA,cotee,,,
+Stokvis,SNA,cotee,,,
+Stokvis Nord Afrqiue,SNA,cotee,,,faute de frappe
+Stokvis Nord Afique,SNA,cotee,,,faute de frappe
+SNEP,SNP,cotee,,,
+Sothema,SOT,cotee,,,
+SRM,SRM,cotee,,,
+Réalisations Mécaniques,SRM,cotee,,,
+Stroc Industrie,STR,cotee,,,
+Stroc,STR,cotee,,,
+TGCC,TGC,cotee,,,
+TotalEnergies Marketing Maroc,TMA,cotee,,,
+Total Maroc,TMA,cotee,,,ancien nom
+Total Energie,TMA,cotee,,,
+Total,TMA,cotee,,,
+Taqa Morocco,TQM,cotee,,,
+Taqa Moroco,TQM,cotee,,,faute de frappe
+Taqa Moocco,TQM,cotee,,,faute de frappe
+JLEC,TQM,cotee,,,Jorf Lasfar Energy Company devenue Taqa Morocco
+Unimer,UMR,cotee,,,
+Vicenne,VCN,cotee,,,
+Wafa Assurance,WAA,cotee,,,
+Zellidja,ZDJ,cotee,,,
+Delattre Levivier Maroc,DLM,sans_historique,,,symbole officiel ; absente de Kaggle
+DLM,DLM,sans_historique,,,Delattre Levivier Maroc
+Diac Salaf,DIS,sans_historique,,,symbole officiel ; absente de Kaggle
+Samir,SAM,sans_historique,,,cotation suspendue depuis 2015 ; absente de Kaggle
+T2S Group,T2S,sans_historique,,,symbole officiel ; absente de Kaggle
+T2S Group Holding,T2S,sans_historique,,,symbole officiel ; absente de Kaggle
+Lydec,,sans_historique,,,ancienne valeur cotée absente de Kaggle
+Timar,,sans_historique,,,ancienne valeur cotée absente de Kaggle
+Nexans Maroc,,sans_historique,,,ancienne valeur cotée absente de Kaggle
+Nexans,,sans_historique,,,ancienne valeur cotée absente de Kaggle
+Centrale Danone,,sans_historique,,,ancienne valeur cotée absente de Kaggle
+Centrale Laitière,,sans_historique,,,ancien nom de Centrale Danone
+CGI,,sans_historique,,,ancienne valeur cotée absente de Kaggle
+SNI,,sans_historique,,,ancienne valeur cotée absente de Kaggle
+Berliet Maroc,,sans_historique,,,ancienne valeur cotée absente de Kaggle
+Taslif,,sans_historique,,,ancienne valeur cotée absente de Kaggle
+SCE,,sans_historique,,,radiée (communiqué de radiation en 2013)
+Fertima,,sans_historique,,,radiée (avis de radiation)
+Mediaco Maroc,,sans_historique,,,retirée après une OPR
+Branoma,,sans_historique,,,statut à confirmer
+Settavex,,sans_historique,,,statut à confirmer
+Crédit Agricole du Maroc,,non_cotee,,,
+CAM,,non_cotee,,,Crédit Agricole du Maroc
+CDG Capital,,non_cotee,,,
+Sofac,,non_cotee,,,
+RCI Finance Maroc,,non_cotee,,,
+RCI Finance,,non_cotee,,,
+RCI Maroc,,non_cotee,,,
+RCI,,non_cotee,,,
+OCP,,non_cotee,,,
+Groupe OCP,,non_cotee,,,
+Wafasalaf,,non_cotee,,,
+Wafabail,,non_cotee,,,
+FEC,,non_cotee,,,Fonds d'Équipement Communal
+SGMB,,non_cotee,,,
+Société Générale Maroc,,non_cotee,,,
+Société Générale,,non_cotee,,,
+Saham Bank,,non_cotee,,,ancienne SGMB
+Saham Leasing,,non_cotee,,,ancienne Sogelease
+Sogelease,,non_cotee,,,
+Groupe Saham,,non_cotee,,,
+BMCI Leasing,,non_cotee,,,
+Alliances Darna,,non_cotee,,,filiale d'Alliances (ADI) émettrice d'obligations
+Al Darna,,non_cotee,,,filiale d'Alliances (ADI) émettrice d'obligations
+Alliance Darna,,non_cotee,,,filiale d'Alliances (ADI) émettrice d'obligations
+Jaida,,non_cotee,,,
+Holding Al Omrane,,non_cotee,,,
+Groupe Al Omrane,,non_cotee,,,
+Al Omrane,,non_cotee,,,
+HAO,,non_cotee,,,Holding Al Omrane
+TMPA,,non_cotee,,,
+Tanger Med Port Authority,,non_cotee,,,
+Tanger Med,,non_cotee,,,
+TM2,,non_cotee,,,
+TM II,,non_cotee,,,
+Tanger Med 2,,non_cotee,,,
+Tanger Med II,,non_cotee,,,
+ADM,,non_cotee,,,Autoroutes du Maroc
+ANP,,non_cotee,,,
+Agence nationale des ports,,non_cotee,,,
+ONCF,,non_cotee,,,
+ONDA,,non_cotee,,,
+Maghreb Steel,,non_cotee,,,
+Axa Crédit,,non_cotee,,,
+Zalar Holding,,non_cotee,,,
+Zalar,,non_cotee,,,
+Zalagh Holding,,non_cotee,,,
+Immolog,,non_cotee,,,
+Medi Telecom,,non_cotee,,,
+Méditel,,non_cotee,,,
+Casablanca Finance Markets,,non_cotee,,,
+CFM,,non_cotee,,,
+Al Mada,,non_cotee,,,
+Ciments de l'Atlas,,non_cotee,,,
+Ciment de l'Atlas,,non_cotee,,,
+CIMAT,,non_cotee,,,
+Jet Alu Maroc,,non_cotee,,,filiale de Jet Contractors
+Jet Alu,,non_cotee,,,filiale de Jet Contractors
+Dyar Al Mansour,,non_cotee,,,
+Somacovam,,non_cotee,,,
+Acred,,non_cotee,,,
+Capgemini,,non_cotee,,,société étrangère (augmentation de capital réservée aux salariés)
+Veolia Environnement,,non_cotee,,,société étrangère (augmentation de capital réservée aux salariés)

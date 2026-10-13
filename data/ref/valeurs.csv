@@ -1,0 +1,82 @@
+ticker,bvc_name,emetteur,secteur,compartiment,nombre_titres,in_masi20,as_of
+ADH,DOUJA PROM ADDOHA,DOUJA PROMOTION GROUPE ADDOHA SA,Participation et promotion immobilières,Principal A,402551254,True,2026-10-13
+ADI,ALLIANCES,ALLIANCES DEVELOPPEMENT IMMOBILIER SA,Participation et promotion immobilières,Principal A,22078588,True,2026-10-13
+AFI,AFRIC INDUSTRIES SA,AFRIC INDUSTRIES,Bâtiment et Matériaux de Construction,Principal B,291500,False,2026-10-13
+AFM,AFMA,AFMA SA,Assurances,Principal B,1000000,False,2026-10-13
+AGM,AGMA,AGMA,Assurances,Alternatif A,200000,False,2026-10-13
+AKT,AKDITAL,AKDITAL,Santé,Principal A,14159207,True,2026-10-13
+ALM,ALUMINIUM DU MAROC,ALUMINIUM  DU  MAROC,Bâtiment et Matériaux de Construction,Principal B,465954,False,2026-10-13
+ARD,ARADEI CAPITAL,ARADEI CAPITAL,Sociétés de placement immobilier,Principal F,12568130,False,2026-10-13
+ATH,AUTO HALL,AUTO HALL,Distributeurs,Principal B,54140578,False,2026-10-13
+ATL,ATLANTASANAD,ATLANTASANAD,Assurances,Principal A,60283595,False,2026-10-13
+ATW,ATTIJARIWAFA BANK,ATTIJARIWAFA BANK,Banques,Principal A,215140839,True,2026-10-13
+BAL,BALIMA,BALIMA,Sociétés de placement immobilier,Principal B,1744000,False,2026-10-13
+BCI,BMCI,BANQUE MAROCAINE POUR LE COMMERCE ET L'INDUSTRIE,Banques,Principal A,13279286,False,2026-10-13
+BCP,BCP,BANQUE CENTRALE POPULAIRE,Banques,Principal A,203312473,True,2026-10-13
+BOA,BANK OF AFRICA,BANK OF AFRICA,Banques,Principal A,220281881,True,2026-10-13
+CAP,CASH PLUS S.A,CASH PLUS S.A,Sociétés de financement et Autres Activités Financières,Principal F,24553090,False,2026-10-13
+CDM,CDM,CREDIT DU MAROC,Banques,Principal A,11626499,True,2026-10-13
+CFG,CFG BANK,CFG BANK,Banques,Principal F,35007960,True,2026-10-13
+CIH,CIH,CREDIT IMMOBILIER ET HOTELIER,Banques,Principal A,38641338,False,2026-10-13
+CMA,CIMENTS DU MAROC,CIMENTS DU MAROC,Bâtiment et Matériaux de Construction,Principal A,14436004,True,2026-10-13
+CMG,CMGP GROUP,CMGP GROUP,Industrie Agricole,Principal A,17000900,True,2026-10-13
+CMT,MINIERE TOUISSIT,COMPAGNIE MINIERE DE TOUISSIT,Mines,Principal B,1681233,False,2026-10-13
+COL,COLORADO,COLORADO,Bâtiment et Matériaux de Construction,Alternatif A,16117611,False,2026-10-13
+CRS,CARTIER SAADA,CARTIER SAADA,Agroalimentaire et Production,Principal B,5265000,False,2026-10-13
+CSR,COSUMAR,COSUMAR,Agroalimentaire et Production,Principal A,94487143,True,2026-10-13
+CTM,CTM,COMPAGNIE DE TRANSPORT AU MAROC,Transport,Principal B,1225978,False,2026-10-13
+DHO,DELTA HOLDING,DELTA HOLDING,Sociétés de Portefeuilles / Holdings,Principal A,87600000,False,2026-10-13
+DIS,DIAC SALAF,DIAC SALAF,Sociétés de financement et Autres Activités Financières,Principal B,1053404,False,2026-10-13
+DLM,DELATTRE LEVIVIER MAROC,DELATTRE LEVIVIER MAROC,Ingénieries et Biens d'Equipement Industriels,Principal B,1750000,False,2026-10-13
+DRI,DARI COUSPATE,DARI COUSPATE,Agroalimentaire et Production,Principal B,298375,False,2026-10-13
+DWY,DISWAY,DISWAY,"Matériels, Logiciels et Services Informatiques",Principal B,1885762,False,2026-10-13
+DYT,DISTY TECHNOLOGIES,DISTY TECHNOLOGIES,"Matériels, Logiciels et Services Informatiques",Alternatif A,998110,False,2026-10-13
+EQD,EQDOM,EQDOM,Sociétés de financement et Autres Activités Financières,Principal B,1670250,False,2026-10-13
+FBR,FENIE BROSSETTE,FENIE BROSSETTE,Distributeurs,Principal B,1438984,False,2026-10-13
+GAZ,AFRIQUIA GAZ,AFRIQUIA GAZ,Pétrole et Gaz,Principal A,3437500,False,2026-10-13
+GTM,SGTM S.A,SOCIETE GENERALE DES TRAVAUX DU MAROC,Bâtiment et Matériaux de Construction,Principal A,60000000,False,2026-10-13
+HPS,HPS,HIGHTECH PAYMENT SYSTEMS,"Matériels, Logiciels et Services Informatiques",Principal B,7406190,False,2026-10-13
+IAM,ITISSALAT AL-MAGHRIB,ITISSALAT AL-MAGHRIB,Télécommunications,Principal A,879095340,True,2026-10-13
+IBC,IB MAROC.COM,IB MAROC.COM SA,"Matériels, Logiciels et Services Informatiques",Principal B,417486,False,2026-10-13
+IMO,IMMORENTE INVEST,IMMORENTE INVEST,Sociétés de placement immobilier,Principal B,9007000,False,2026-10-13
+INV,INVOLYS,INVOLYS,"Matériels, Logiciels et Services Informatiques",Alternatif A,382716,False,2026-10-13
+JET,JET CONTRACTORS,JET CONTRACTORS,Bâtiment et Matériaux de Construction,Principal A,3029522,True,2026-10-13
+LBV,LABEL VIE,LABEL VIE,Distributeurs,Principal A,2893957,True,2026-10-13
+LES,LESIEUR CRISTAL,LESIEUR CRISTAL,Agroalimentaire et Production,Principal A,27631510,False,2026-10-13
+LHM,Holcim Maroc S.A,Holcim Maroc S.A,Bâtiment et Matériaux de Construction,Principal A,23431240,True,2026-10-13
+M2M,M2M Group,M2M GROUP,"Matériels, Logiciels et Services Informatiques",Principal B,647777,False,2026-10-13
+MAB,MAGHREBAIL,MAGHREBAIL,Sociétés de financement et Autres Activités Financières,Principal B,1384182,False,2026-10-13
+MDP,MED PAPER,MED PAPER,Sylviculture et Papier,Principal B,4783823,False,2026-10-13
+MIC,MICRODATA,MICRODATA,"Matériels, Logiciels et Services Informatiques",Alternatif A,1680000,False,2026-10-13
+MLE,MAROC LEASING,MAROC LEASING,Sociétés de financement et Autres Activités Financières,Principal B,2776768,False,2026-10-13
+MNG,MANAGEM,MANAGEM,Mines,Principal A,118646760,False,2026-10-13
+MOX,MAGHREB OXYGENE,MAGHREB OXYGENE,Chimie,Principal B,812500,False,2026-10-13
+MSA,SODEP-Marsa Maroc,SOCIETE D'EXPLOITATION DES PORTS - MARSA MAROC,Services de transport,Principal A,73395600,True,2026-10-13
+MUT,MUTANDIS SCA,MUTANDIS SCA,Agroalimentaire et Production,Principal B,9246737,False,2026-10-13
+NEJ,AUTO NEJMA,AUTO NEJMA,Distributeurs,Principal B,1023264,False,2026-10-13
+NKL,ENNAKL,ENNAKL AUTOMOBILES,Distributeurs,Principal B,30000000,False,2026-10-13
+OUL,OULMES,SOCIETE LES EAUX MINERALES D'OULMES,Boissons,Principal B,1980000,False,2026-10-13
+PRO,PROMOPHARM S.A.,SOCIETE DE PROMOTION PHARMACEUTIQUE DU MAGHREB S.A,Industrie Pharmaceutique,Principal B,1000000,False,2026-10-13
+RDS,RESIDENCES DAR SAADA,RESIDENCES DAR SAADA,Participation et promotion immobilières,Principal B,26208850,True,2026-10-13
+REB,REBAB COMPANY,REBAB COMPANY,Mines,Principal B,176456,False,2026-10-13
+RIS,RISMA,RISMA,Loisirs et Hôtels,Principal A,16012132,False,2026-10-13
+S2M,S.M MONETIQUE,SOCIETE MAGHREBINE DE MONETIQUE,"Matériels, Logiciels et Services Informatiques",Principal B,812070,False,2026-10-13
+SAH,SANLAM MAROC,SANLAM MAROC,Assurances,Principal A,5341874,False,2026-10-13
+SAM,SAMIR,SAMIR,Pétrole et Gaz,Principal B,11899665,False,2026-10-13
+SBM,SOCIETE DES BOISSONS DU MAROC,SOCIETE DES BOISSONS DU MAROC,Boissons,Principal A,2829653,False,2026-10-13
+SID,SONASID,SOCIETE NATIONALE DE SIDERURGIE SA,Bâtiment et Matériaux de Construction,Principal A,3900000,True,2026-10-13
+SLF,SALAFIN,SALAFIN,Sociétés de financement et Autres Activités Financières,Principal B,3124119,False,2026-10-13
+SMI,SMI,SOCIETE METALLURGIQUE D'IMITER,Mines,Principal B,1645090,False,2026-10-13
+SNA,STOKVIS NORD AFRIQUE,STOKVIS NORD AFRIQUE,Distributeurs,Principal B,17695150,False,2026-10-13
+SNP,SNEP,SOCIETE NATIONALE D'ELECTROLYSE ET DE PETROCHIMIE,Chimie,Principal B,2400000,False,2026-10-13
+SOT,SOTHEMA,SOCIETE DE THERAPEUTIQUE MAROCAINE,Industrie Pharmaceutique,Principal A,38309500,False,2026-10-13
+SRM,REALISATIONS MECANIQUES,SOCIETE DE REALISATIONS MECANIQUES,Distributeurs,Principal B,320000,False,2026-10-13
+STR,STROC INDUSTRIE,SOCIETE DE TRAVAUX DE REALISATION D'OUVRAGES ET DE CONSTRUCTION INDUSTRIELLE,Ingénieries et Biens d'Equipement Industriels,Principal B,1248515,False,2026-10-13
+T2S,T2S GROUP HOLDING,T2S GROUP HOLDING,Santé,Principal F,22584118,False,2026-10-13
+TGC,TGCC S.A,TRAVAUX GENERAUX DE CONSTRUCTION DE CASABLANCA,Bâtiment et Matériaux de Construction,Principal F,34674332,True,2026-10-13
+TMA,TOTALENERGIES MARKETING MAROC,TOTALENERGIES MARKETING MAROC,Pétrole et Gaz,Principal A,8960000,False,2026-10-13
+TQM,TAQA MOROCCO,TAQA MOROCCO,Electricité,Principal A,23588542,True,2026-10-13
+UMR,UNIMER,UNIMER,Agroalimentaire et Production,Principal B,11413880,False,2026-10-13
+VCN,VICENNE,VICENNE,Santé,Principal F,10258850,False,2026-10-13
+WAA,WAFA ASSURANCE,WAFA ASSURANCE,Assurances,Principal A,3500000,False,2026-10-13
+ZDJ,ZELLIDJA S.A,ZELLIDJA S.A,Sociétés de Portefeuilles / Holdings,Principal B,572849,False,2026-10-13

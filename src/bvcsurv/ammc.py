@@ -132,18 +132,26 @@ def parse_all() -> int:
 
 def load_db() -> int:
     from .db import connect
+    from .referentiel import enrich
     with open(OUT, newline="", encoding="utf-8") as f:
-        rows = list(csv.DictReader(f))
+        rows = enrich(list(csv.DictReader(f)))
     with connect() as conn, conn.cursor() as cur:
+        # Le rapprochement et le classement sont recalculés à chaque chargement :
+        # une correction de la table d'alias ou des règles s'applique à tout l'historique.
         cur.executemany(
-            """INSERT INTO communiques (published_at, title, issuer_raw, subject, pdf_url)
-               VALUES (%s,%s,%s,%s,%s) ON CONFLICT (published_at, title) DO NOTHING""",
-            [(r["published_at"], r["title"], r["issuer_raw"] or None, r["subject"], r["pdf_url"] or None)
+            """INSERT INTO communiques (published_at, title, issuer_raw, subject, pdf_url,
+                                        ticker, issuer_status, event_type)
+               VALUES (%s,%s,%s,%s,%s,%s,%s,%s)
+               ON CONFLICT (published_at, title) DO UPDATE SET
+                 ticker = EXCLUDED.ticker, issuer_status = EXCLUDED.issuer_status,
+                 event_type = EXCLUDED.event_type""",
+            [(r["published_at"], r["title"], r["issuer_raw"] or None, r["subject"], r["pdf_url"] or None,
+              r["ticker"], r["issuer_status"], r["event_type"])
              for r in rows],
         )
         conn.commit()
-        n = cur.execute("SELECT count(*) FROM communiques").fetchone()[0]
-    print(f"{n} publications en base")
+        n, m = cur.execute("SELECT count(*), count(ticker) FROM communiques").fetchone()
+    print(f"{n} publications en base, dont {m} rattachées à une valeur")
     return 0
 
 
