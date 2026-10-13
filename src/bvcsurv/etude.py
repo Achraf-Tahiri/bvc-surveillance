@@ -57,8 +57,8 @@ def load_db(conn) -> dict:
             return pd.DataFrame(cur.execute(sql).fetchall(), columns=cols)
         px = frame("SELECT ticker, day, close, volume FROM prices_daily", ["ticker", "day", "close", "volume"])
         ins = frame("SELECT ticker, kind, sector FROM instruments", ["ticker", "kind", "sector"])
-        com = frame("SELECT published_at, ticker, event_type, title FROM communiques "
-                    "WHERE ticker IS NOT NULL", ["published_at", "ticker", "event_type", "title"])
+        com = frame("SELECT id, published_at, ticker, event_type, title FROM communiques "
+                    "WHERE ticker IS NOT NULL", ["id", "published_at", "ticker", "event_type", "title"])
         flags = frame("SELECT ticker, day FROM price_flags", ["ticker", "day"])
     return {"px": px, "instruments": ins, "communiques": com, "flags": flags}
 

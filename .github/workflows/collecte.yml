@@ -28,7 +28,7 @@ jobs:
           cache: pip
 
       - name: Installation
-        run: pip install -e .
+        run: pip install -e ".[analysis]"
 
       - name: Diagnostic réseau (le runner joint-il le site de la Bourse ?)
         run: |
@@ -53,6 +53,12 @@ jobs:
         run: |
           python -m bvcsurv.ammc update --pages 3
           if [ -n "$DATABASE_URL" ]; then python -m bvcsurv.ammc load; fi
+
+      - name: Détection des séances atypiques
+        if: always()
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: if [ -n "$DATABASE_URL" ]; then python -m bvcsurv.detection; fi
 
       - name: Enregistrement des données dans le dépôt
         if: always()

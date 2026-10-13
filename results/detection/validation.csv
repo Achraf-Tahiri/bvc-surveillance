@@ -1,0 +1,25 @@
+publications,periode,detecteur,fenetre,alertes,seances_d_alerte,valeurs,part_proche_pct,part_hasard_pct,gain,gain_ic_bas,gain_ic_haut
+toutes,entrainement,alertes (Isolation Forest ou |z| > 4),"[d-1, d+1]",840,696,51,13.0952,8.2229,1.5925,1.3168,1.8642
+toutes,entrainement,alertes (Isolation Forest ou |z| > 4),"[d+2, d+10] seulement",840,696,51,15.8333,21.057,0.7519,0.6347,0.8739
+toutes,entrainement,Isolation Forest,"[d-1, d+1]",662,572,51,11.0272,8.0345,1.3725,1.0857,1.6795
+toutes,entrainement,Isolation Forest,"[d+2, d+10] seulement",662,572,51,15.2568,20.6586,0.7385,0.6071,0.8711
+toutes,entrainement,règle |z| > 4,"[d-1, d+1]",355,307,46,18.8732,8.6438,2.1835,1.6957,2.6611
+toutes,entrainement,règle |z| > 4,"[d+2, d+10] seulement",355,307,46,16.338,22.1063,0.7391,0.5689,0.9224
+toutes,test,alertes (Isolation Forest ou |z| > 4),"[d-1, d+1]",369,272,55,16.8022,12.0481,1.3946,1.0722,1.7517
+toutes,test,alertes (Isolation Forest ou |z| > 4),"[d+2, d+10] seulement",369,272,55,25.7453,28.603,0.9001,0.7325,1.074
+toutes,test,Isolation Forest,"[d-1, d+1]",208,173,46,13.9423,11.3908,1.224,0.8189,1.6567
+toutes,test,Isolation Forest,"[d+2, d+10] seulement",208,173,46,22.5962,26.5945,0.8497,0.6426,1.0735
+toutes,test,règle |z| > 4,"[d-1, d+1]",263,192,49,20.9125,12.4001,1.6865,1.2767,2.1536
+toutes,test,règle |z| > 4,"[d+2, d+10] seulement",263,192,49,25.4753,29.9069,0.8518,0.6536,1.0443
+résultats et profit warnings,entrainement,alertes (Isolation Forest ou |z| > 4),"[d-1, d+1]",840,696,51,7.2619,2.7822,2.6101,1.9871,3.2853
+résultats et profit warnings,entrainement,alertes (Isolation Forest ou |z| > 4),"[d+2, d+10] seulement",840,696,51,6.7857,7.7175,0.8793,0.6445,1.1243
+résultats et profit warnings,entrainement,Isolation Forest,"[d-1, d+1]",662,572,51,5.8912,2.7675,2.1287,1.5123,2.7651
+résultats et profit warnings,entrainement,Isolation Forest,"[d+2, d+10] seulement",662,572,51,5.7402,7.6433,0.751,0.5314,0.9938
+résultats et profit warnings,entrainement,règle |z| > 4,"[d-1, d+1]",355,307,46,11.2676,2.8238,3.9903,2.7977,5.2117
+résultats et profit warnings,entrainement,règle |z| > 4,"[d+2, d+10] seulement",355,307,46,7.8873,7.9663,0.9901,0.5961,1.384
+résultats et profit warnings,test,alertes (Isolation Forest ou |z| > 4),"[d-1, d+1]",369,272,55,6.2331,3.7481,1.663,1.0447,2.3881
+résultats et profit warnings,test,alertes (Isolation Forest ou |z| > 4),"[d+2, d+10] seulement",369,272,55,8.9431,10.3202,0.8666,0.5509,1.2205
+résultats et profit warnings,test,Isolation Forest,"[d-1, d+1]",208,173,46,4.3269,3.7373,1.1578,0.5004,1.9052
+résultats et profit warnings,test,Isolation Forest,"[d+2, d+10] seulement",208,173,46,8.1731,10.3862,0.7869,0.4263,1.2108
+résultats et profit warnings,test,règle |z| > 4,"[d-1, d+1]",263,192,49,8.7452,3.7336,2.3423,1.4286,3.3651
+résultats et profit warnings,test,règle |z| > 4,"[d+2, d+10] seulement",263,192,49,10.2662,10.2623,1.0004,0.6135,1.4344
