@@ -1,0 +1,9 @@
+étape,n
+publications rattachées à une valeur,7817
+valeur avec historique de cours,7718
+"après dédoublonnage (valeur, jour, type)",7289
+rejet : moins de 150 séances échangées pour l'estimation,-2397
+rejet : hors calendrier,-668
+rejet : fenêtre sans cours (avant cotation ou trou),-254
+rejet : rupture de prix dans la fenêtre,-5
+événements retenus,3965
