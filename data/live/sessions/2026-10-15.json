@@ -526,10 +526,10 @@
   }
  ],
  "communique_links": [
+  "/sites/default/files/pemetteur/2026-09/fec_s1_2026.pdf",
   "/sites/default/files/pemetteur/2026-10/cp_attijariwafa_bank_accord_acquisition_participation_sg_ghana.pdf",
   "/sites/default/files/pemetteur/2026-10/cp_disty_technologies_changement_ca.pdf",
-  "/sites/default/files/pemetteur/2026-10/ennakl_automobiles_s1_26.pdf",
-  "/sites/default/files/pemetteur/2026-10/tgcc_s1_26.pdf"
+  "/sites/default/files/pemetteur/2026-10/ennakl_automobiles_s1_26.pdf"
  ],
  "api_session_status": "closed",
  "stocks": [
@@ -1751,5 +1751,5 @@
  ],
  "fingerprint": "d2c5b5188d840125",
  "same_prices_as_previous_session": false,
- "fetched_at_utc": "2026-10-15T19:57:08+00:00"
+ "fetched_at_utc": "2026-10-15T21:36:32+00:00"
 }
