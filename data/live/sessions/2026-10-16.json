@@ -1,0 +1,1755 @@
+{
+ "session_date": "2026-10-16",
+ "market_status": "Séance fermée",
+ "closed": true,
+ "indices": {
+  "MASI": {
+   "value": 16997.92,
+   "var_pct": -0.01
+  },
+  "MASI 20": {
+   "value": 1232.03,
+   "var_pct": -0.14
+  }
+ },
+ "capitalisation_mad": 999885706941.0,
+ "volume_global_mad": 117421343.0,
+ "quotes": [
+  {
+   "name": "AFMA",
+   "price": 1249.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "AFRIC INDUSTRIES SA",
+   "price": 327.0,
+   "var_pct": 0.18
+  },
+  {
+   "name": "AFRIQUIA GAZ",
+   "price": 3600.0,
+   "var_pct": -0.28
+  },
+  {
+   "name": "AGMA",
+   "price": 7000.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "AKDITAL",
+   "price": 1064.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "ALLIANCES",
+   "price": 360.0,
+   "var_pct": 2.56
+  },
+  {
+   "name": "ALUMINIUM DU MAROC",
+   "price": 1920.0,
+   "var_pct": 1.48
+  },
+  {
+   "name": "ARADEI CAPITAL",
+   "price": 426.2,
+   "var_pct": -0.42
+  },
+  {
+   "name": "ATLANTASANAD",
+   "price": 120.1,
+   "var_pct": -0.74
+  },
+  {
+   "name": "ATTIJARIWAFA BANK",
+   "price": 670.0,
+   "var_pct": -0.01
+  },
+  {
+   "name": "AUTO HALL",
+   "price": 60.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "AUTO NEJMA",
+   "price": 5621.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "BALIMA",
+   "price": 199.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "BANK OF AFRICA",
+   "price": 181.0,
+   "var_pct": -1.63
+  },
+  {
+   "name": "BCP",
+   "price": 245.0,
+   "var_pct": -0.81
+  },
+  {
+   "name": "BMCI",
+   "price": 561.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "CARTIER SAADA",
+   "price": 19.9,
+   "var_pct": -0.5
+  },
+  {
+   "name": "CASH PLUS S.A",
+   "price": 215.0,
+   "var_pct": 0.42
+  },
+  {
+   "name": "CDM",
+   "price": 914.4,
+   "var_pct": -0.72
+  },
+  {
+   "name": "CFG BANK",
+   "price": 194.0,
+   "var_pct": -0.51
+  },
+  {
+   "name": "CIH",
+   "price": 307.85,
+   "var_pct": 2.55
+  },
+  {
+   "name": "CIMENTS DU MAROC",
+   "price": 1436.0,
+   "var_pct": -0.62
+  },
+  {
+   "name": "CMGP GROUP",
+   "price": 260.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "COLORADO",
+   "price": 77.24,
+   "var_pct": 2.03
+  },
+  {
+   "name": "COSUMAR",
+   "price": 173.0,
+   "var_pct": -2.23
+  },
+  {
+   "name": "CTM",
+   "price": 805.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "DARI COUSPATE",
+   "price": 4180.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "DELATTRE LEVIVIER MAROC",
+   "price": 40.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "DELTA HOLDING",
+   "price": 48.0,
+   "var_pct": 0.95
+  },
+  {
+   "name": "DIAC SALAF",
+   "price": 26.25,
+   "var_pct": 0.0
+  },
+  {
+   "name": "DISTY TECHNOLOGIES",
+   "price": 345.0,
+   "var_pct": 1.14
+  },
+  {
+   "name": "DISWAY",
+   "price": 745.0,
+   "var_pct": -0.27
+  },
+  {
+   "name": "DOUJA PROM ADDOHA",
+   "price": 34.99,
+   "var_pct": 2.01
+  },
+  {
+   "name": "ENNAKL",
+   "price": 47.8,
+   "var_pct": 0.84
+  },
+  {
+   "name": "EQDOM",
+   "price": 1500.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "FENIE BROSSETTE",
+   "price": 332.0,
+   "var_pct": 0.91
+  },
+  {
+   "name": "Holcim Maroc S.A",
+   "price": 1609.0,
+   "var_pct": 0.31
+  },
+  {
+   "name": "HPS",
+   "price": 517.0,
+   "var_pct": 2.03
+  },
+  {
+   "name": "IB MAROC.COM",
+   "price": 51.0,
+   "var_pct": 1.8
+  },
+  {
+   "name": "IMMORENTE INVEST",
+   "price": 90.9,
+   "var_pct": -0.05
+  },
+  {
+   "name": "INVOLYS",
+   "price": 115.9,
+   "var_pct": 2.93
+  },
+  {
+   "name": "ITISSALAT AL-MAGHRIB",
+   "price": 90.0,
+   "var_pct": -1.08
+  },
+  {
+   "name": "JET CONTRACTORS",
+   "price": 1440.0,
+   "var_pct": -1.03
+  },
+  {
+   "name": "LABEL VIE",
+   "price": 3896.0,
+   "var_pct": 0.23
+  },
+  {
+   "name": "LESIEUR CRISTAL",
+   "price": 278.0,
+   "var_pct": -1.24
+  },
+  {
+   "name": "M2M Group",
+   "price": 400.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "MAGHREB OXYGENE",
+   "price": 384.0,
+   "var_pct": 1.19
+  },
+  {
+   "name": "MAGHREBAIL",
+   "price": 893.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "MANAGEM",
+   "price": 1501.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "MAROC LEASING",
+   "price": 374.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "MED PAPER",
+   "price": 22.75,
+   "var_pct": 0.84
+  },
+  {
+   "name": "MICRODATA",
+   "price": 760.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "MINIERE TOUISSIT",
+   "price": 4027.0,
+   "var_pct": -1.78
+  },
+  {
+   "name": "MUTANDIS SCA",
+   "price": 226.2,
+   "var_pct": -1.14
+  },
+  {
+   "name": "OULMES",
+   "price": 1190.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "PROMOPHARM S.A.",
+   "price": 1480.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "REALISATIONS MECANIQUES",
+   "price": 449.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "REBAB COMPANY",
+   "price": 93.8,
+   "var_pct": 5.99
+  },
+  {
+   "name": "RESIDENCES DAR SAADA",
+   "price": 162.0,
+   "var_pct": 0.19
+  },
+  {
+   "name": "RISMA",
+   "price": 300.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "S.M MONETIQUE",
+   "price": 476.0,
+   "var_pct": -2.27
+  },
+  {
+   "name": "SALAFIN",
+   "price": 419.0,
+   "var_pct": -0.12
+  },
+  {
+   "name": "SAMIR",
+   "price": 127.8,
+   "var_pct": 0.0
+  },
+  {
+   "name": "SANLAM MAROC",
+   "price": 2918.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "SGTM S.A",
+   "price": 587.0,
+   "var_pct": -0.36
+  },
+  {
+   "name": "SMI",
+   "price": 5760.0,
+   "var_pct": 2.49
+  },
+  {
+   "name": "SNEP",
+   "price": 283.95,
+   "var_pct": 1.23
+  },
+  {
+   "name": "SOCIETE DES BOISSONS DU MAROC",
+   "price": 2080.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "SODEP-Marsa Maroc",
+   "price": 750.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "SONASID",
+   "price": 1648.0,
+   "var_pct": 1.73
+  },
+  {
+   "name": "SOTHEMA",
+   "price": 308.0,
+   "var_pct": 0.16
+  },
+  {
+   "name": "STOKVIS NORD AFRIQUE",
+   "price": 47.85,
+   "var_pct": -0.19
+  },
+  {
+   "name": "STROC INDUSTRIE",
+   "price": 157.3,
+   "var_pct": 2.81
+  },
+  {
+   "name": "T2S GROUP HOLDING",
+   "price": 209.0,
+   "var_pct": 0.48
+  },
+  {
+   "name": "TAQA MOROCCO",
+   "price": 1640.0,
+   "var_pct": 2.5
+  },
+  {
+   "name": "TGCC S.A",
+   "price": 634.9,
+   "var_pct": -0.17
+  },
+  {
+   "name": "TOTALENERGIES MARKETING MAROC",
+   "price": 1345.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "UNIMER",
+   "price": 169.0,
+   "var_pct": 0.0
+  },
+  {
+   "name": "VICENNE",
+   "price": 300.0,
+   "var_pct": 1.35
+  },
+  {
+   "name": "WAFA ASSURANCE",
+   "price": 4952.0,
+   "var_pct": 3.17
+  },
+  {
+   "name": "ZELLIDJA S.A",
+   "price": 232.1,
+   "var_pct": -3.31
+  }
+ ],
+ "tops": [
+  {
+   "kind": "volume",
+   "rank": 1,
+   "name": "ATTIJARIWAFA BANK",
+   "value": 14280869.0
+  },
+  {
+   "kind": "volume",
+   "rank": 2,
+   "name": "SODEP-Marsa Maroc",
+   "value": 11279011.0
+  },
+  {
+   "kind": "volume",
+   "rank": 3,
+   "name": "Holcim Maroc S.A",
+   "value": 9478101.0
+  },
+  {
+   "kind": "volume",
+   "rank": 4,
+   "name": "DOUJA PROM ADDOHA",
+   "value": 7622420.0
+  },
+  {
+   "kind": "hausses",
+   "rank": 1,
+   "name": "REBAB COMPANY",
+   "price": 93.8,
+   "value": 5.99
+  },
+  {
+   "kind": "hausses",
+   "rank": 2,
+   "name": "WAFA ASSURANCE",
+   "price": 4952.0,
+   "value": 3.17
+  },
+  {
+   "kind": "hausses",
+   "rank": 3,
+   "name": "INVOLYS",
+   "price": 115.9,
+   "value": 2.93
+  },
+  {
+   "kind": "hausses",
+   "rank": 4,
+   "name": "STROC INDUSTRIE",
+   "price": 157.3,
+   "value": 2.81
+  },
+  {
+   "kind": "baisses",
+   "rank": 1,
+   "name": "ZELLIDJA S.A",
+   "price": 232.1,
+   "value": -3.31
+  },
+  {
+   "kind": "baisses",
+   "rank": 2,
+   "name": "S.M MONETIQUE",
+   "price": 476.0,
+   "value": -2.27
+  },
+  {
+   "kind": "baisses",
+   "rank": 3,
+   "name": "COSUMAR",
+   "price": 173.0,
+   "value": -2.23
+  },
+  {
+   "kind": "baisses",
+   "rank": 4,
+   "name": "MINIERE TOUISSIT",
+   "price": 4027.0,
+   "value": -1.78
+  }
+ ],
+ "futures": [
+  {
+   "contract": "MASI20 FUTURE DEC26",
+   "price": 1224.7,
+   "var_pct": 0.24
+  },
+  {
+   "contract": "MASI20 FUTURE MAR27",
+   "price": 1215.0,
+   "var_pct": 0.24
+  },
+  {
+   "contract": "MASI20 FUTURE JUI27",
+   "price": 1205.3,
+   "var_pct": 0.24
+  },
+  {
+   "contract": "MASI20 FUTURE SEP27",
+   "price": 1195.8,
+   "var_pct": 0.24
+  }
+ ],
+ "communique_links": [
+  "/sites/default/files/pemetteur/2026-10/agma_s1_26.pdf",
+  "/sites/default/files/pemetteur/2026-10/cp_attijariwafa_bank_accord_acquisition_participation_sg_ghana.pdf",
+  "/sites/default/files/pemetteur/2026-10/cp_disty_technologies_changement_ca.pdf",
+  "/sites/default/files/pemetteur/2026-10/ennakl_automobiles_s1_26.pdf"
+ ],
+ "api_session_status": "closed",
+ "stocks": [
+  {
+   "ticker": "ADH",
+   "status": "T",
+   "open": 34.6,
+   "high": 35,
+   "low": 34.6,
+   "last": 34.99,
+   "reference": 34.3,
+   "var_pct": 2.0116618076,
+   "volume_mad": 7622419.89,
+   "quantity": 218579,
+   "trades": 270,
+   "capitalisation_mad": 14085268377.46,
+   "shares": 402551254
+  },
+  {
+   "ticker": "ADI",
+   "status": "T",
+   "open": 351,
+   "high": 364.9,
+   "low": 351,
+   "last": 360,
+   "reference": 351,
+   "var_pct": 2.5641025641,
+   "volume_mad": 3237243.95,
+   "quantity": 9132,
+   "trades": 106,
+   "capitalisation_mad": 7948291680,
+   "shares": 22078588
+  },
+  {
+   "ticker": "AFI",
+   "status": "T",
+   "open": 327,
+   "high": 327,
+   "low": 327,
+   "last": 327,
+   "reference": 326.4,
+   "var_pct": 0.1838235294,
+   "volume_mad": 3270,
+   "quantity": 10,
+   "trades": 1,
+   "capitalisation_mad": 95320500,
+   "shares": 291500
+  },
+  {
+   "ticker": "AFM",
+   "status": "NT",
+   "open": null,
+   "high": null,
+   "low": null,
+   "last": 1249,
+   "reference": 1249,
+   "var_pct": null,
+   "volume_mad": null,
+   "quantity": null,
+   "trades": 0,
+   "capitalisation_mad": 1249000000,
+   "shares": 1000000
+  },
+  {
+   "ticker": "AGM",
+   "status": "NT",
+   "open": null,
+   "high": null,
+   "low": null,
+   "last": 7000,
+   "reference": 7000,
+   "var_pct": null,
+   "volume_mad": null,
+   "quantity": null,
+   "trades": 0,
+   "capitalisation_mad": 1400000000,
+   "shares": 200000
+  },
+  {
+   "ticker": "AKT",
+   "status": "T",
+   "open": 1064,
+   "high": 1083,
+   "low": 1064,
+   "last": 1064,
+   "reference": 1064,
+   "var_pct": 0,
+   "volume_mad": 5553653,
+   "quantity": 5179,
+   "trades": 80,
+   "capitalisation_mad": 15065396248,
+   "shares": 14159207
+  },
+  {
+   "ticker": "ALM",
+   "status": "T",
+   "open": 1882,
+   "high": 1920,
+   "low": 1882,
+   "last": 1920,
+   "reference": 1892,
+   "var_pct": 1.4799154334,
+   "volume_mad": 3802,
+   "quantity": 2,
+   "trades": 2,
+   "capitalisation_mad": 894631680,
+   "shares": 465954
+  },
+  {
+   "ticker": "ARD",
+   "status": "T",
+   "open": 431,
+   "high": 431,
+   "low": 426,
+   "last": 426.2,
+   "reference": 428,
+   "var_pct": -0.4205607477,
+   "volume_mad": 99485,
+   "quantity": 232,
+   "trades": 13,
+   "capitalisation_mad": 5356537006,
+   "shares": 12568130
+  },
+  {
+   "ticker": "ATH",
+   "status": "T",
+   "open": 61.5,
+   "high": 62,
+   "low": 60,
+   "last": 60,
+   "reference": 60,
+   "var_pct": 0,
+   "volume_mad": 1273340.76,
+   "quantity": 21166,
+   "trades": 74,
+   "capitalisation_mad": 3248434680,
+   "shares": 54140578
+  },
+  {
+   "ticker": "ATL",
+   "status": "T",
+   "open": 119.45,
+   "high": 120.9,
+   "low": 119.45,
+   "last": 120.1,
+   "reference": 121,
+   "var_pct": -0.7438016529,
+   "volume_mad": 26648.45,
+   "quantity": 222,
+   "trades": 17,
+   "capitalisation_mad": 7240059759.5,
+   "shares": 60283595
+  },
+  {
+   "ticker": "ATW",
+   "status": "T",
+   "open": 670,
+   "high": 672,
+   "low": 668,
+   "last": 670,
+   "reference": 670.1,
+   "var_pct": -0.0149231458,
+   "volume_mad": 14280868.5,
+   "quantity": 21315,
+   "trades": 72,
+   "capitalisation_mad": 144144362130,
+   "shares": 215140839
+  },
+  {
+   "ticker": "BAL",
+   "status": "NT",
+   "open": null,
+   "high": null,
+   "low": null,
+   "last": 199,
+   "reference": 199,
+   "var_pct": null,
+   "volume_mad": null,
+   "quantity": null,
+   "trades": 0,
+   "capitalisation_mad": 347056000,
+   "shares": 1744000
+  },
+  {
+   "ticker": "BCI",
+   "status": "NT",
+   "open": null,
+   "high": null,
+   "low": null,
+   "last": 561,
+   "reference": 561,
+   "var_pct": null,
+   "volume_mad": null,
+   "quantity": null,
+   "trades": 0,
+   "capitalisation_mad": 7449679446,
+   "shares": 13279286
+  },
+  {
+   "ticker": "BCP",
+   "status": "T",
+   "open": 244,
+   "high": 247,
+   "low": 244,
+   "last": 245,
+   "reference": 247,
+   "var_pct": -0.8097165992,
+   "volume_mad": 3792953.2,
+   "quantity": 15447,
+   "trades": 63,
+   "capitalisation_mad": 49811555885,
+   "shares": 203312473
+  },
+  {
+   "ticker": "BOA",
+   "status": "T",
+   "open": 182.1,
+   "high": 183.9,
+   "low": 181,
+   "last": 181,
+   "reference": 184,
+   "var_pct": -1.6304347826,
+   "volume_mad": 2008041.15,
+   "quantity": 11092,
+   "trades": 47,
+   "capitalisation_mad": 39871020461,
+   "shares": 220281881
+  },
+  {
+   "ticker": "CAP",
+   "status": "T",
+   "open": 218,
+   "high": 218,
+   "low": 215,
+   "last": 215,
+   "reference": 214.1,
+   "var_pct": 0.4203643157,
+   "volume_mad": 311351.4,
+   "quantity": 1447,
+   "trades": 28,
+   "capitalisation_mad": 5278914350,
+   "shares": 24553090
+  },
+  {
+   "ticker": "CDM",
+   "status": "T",
+   "open": 928,
+   "high": 928,
+   "low": 914.4,
+   "last": 914.4,
+   "reference": 921,
+   "var_pct": -0.7166123779,
+   "volume_mad": 251347.8,
+   "quantity": 274,
+   "trades": 15,
+   "capitalisation_mad": 10631270685.6,
+   "shares": 11626499
+  },
+  {
+   "ticker": "CFG",
+   "status": "T",
+   "open": 190.4,
+   "high": 195,
+   "low": 190.4,
+   "last": 194,
+   "reference": 195,
+   "var_pct": -0.5128205128,
+   "volume_mad": 93215.55,
+   "quantity": 488,
+   "trades": 27,
+   "capitalisation_mad": 6791544240,
+   "shares": 35007960
+  },
+  {
+   "ticker": "CIH",
+   "status": "T",
+   "open": 301.1,
+   "high": 307.85,
+   "low": 300,
+   "last": 307.85,
+   "reference": 300.2,
+   "var_pct": 2.5483011326,
+   "volume_mad": 2656661.3,
+   "quantity": 8841,
+   "trades": 66,
+   "capitalisation_mad": 11895735903.3,
+   "shares": 38641338
+  },
+  {
+   "ticker": "CMA",
+   "status": "T",
+   "open": 1465,
+   "high": 1465,
+   "low": 1435,
+   "last": 1436,
+   "reference": 1445,
+   "var_pct": -0.6228373702,
+   "volume_mad": 2291481,
+   "quantity": 1586,
+   "trades": 33,
+   "capitalisation_mad": 20730101744,
+   "shares": 14436004
+  },
+  {
+   "ticker": "CMG",
+   "status": "T",
+   "open": 264.5,
+   "high": 264.5,
+   "low": 259,
+   "last": 260,
+   "reference": 260,
+   "var_pct": 0,
+   "volume_mad": 6551880.15,
+   "quantity": 25199,
+   "trades": 111,
+   "capitalisation_mad": 4420234000,
+   "shares": 17000900
+  },
+  {
+   "ticker": "CMT",
+   "status": "T",
+   "open": 4005,
+   "high": 4095,
+   "low": 4005,
+   "last": 4027,
+   "reference": 4100,
+   "var_pct": -1.7804878049,
+   "volume_mad": 334160,
+   "quantity": 83,
+   "trades": 15,
+   "capitalisation_mad": 6770325291,
+   "shares": 1681233
+  },
+  {
+   "ticker": "COL",
+   "status": "T",
+   "open": 75.51,
+   "high": 77.24,
+   "low": 75.5,
+   "last": 77.24,
+   "reference": 75.7,
+   "var_pct": 2.034346103,
+   "volume_mad": 81500.06,
+   "quantity": 1056,
+   "trades": 15,
+   "capitalisation_mad": 1244924273.64,
+   "shares": 16117611
+  },
+  {
+   "ticker": "CRS",
+   "status": "T",
+   "open": 20,
+   "high": 20,
+   "low": 19.2,
+   "last": 19.9,
+   "reference": 20,
+   "var_pct": -0.5,
+   "volume_mad": 191002.99,
+   "quantity": 9766,
+   "trades": 60,
+   "capitalisation_mad": 104773500,
+   "shares": 5265000
+  },
+  {
+   "ticker": "CSR",
+   "status": "T",
+   "open": 177,
+   "high": 178.3,
+   "low": 173,
+   "last": 173,
+   "reference": 176.95,
+   "var_pct": -2.2322690025,
+   "volume_mad": 687577.35,
+   "quantity": 3951,
+   "trades": 111,
+   "capitalisation_mad": 16346275739,
+   "shares": 94487143
+  },
+  {
+   "ticker": "CTM",
+   "status": "T",
+   "open": 800,
+   "high": 805,
+   "low": 800,
+   "last": 805,
+   "reference": 805,
+   "var_pct": 0,
+   "volume_mad": 14439.3,
+   "quantity": 18,
+   "trades": 5,
+   "capitalisation_mad": 986912290,
+   "shares": 1225978
+  },
+  {
+   "ticker": "DHO",
+   "status": "T",
+   "open": 49,
+   "high": 49.2,
+   "low": 47.56,
+   "last": 48,
+   "reference": 47.55,
+   "var_pct": 0.9463722397,
+   "volume_mad": 86537.46,
+   "quantity": 1779,
+   "trades": 38,
+   "capitalisation_mad": 4204800000,
+   "shares": 87600000
+  },
+  {
+   "ticker": "DIS",
+   "status": "S",
+   "open": null,
+   "high": null,
+   "low": null,
+   "last": 26.25,
+   "reference": 26.25,
+   "var_pct": null,
+   "volume_mad": null,
+   "quantity": null,
+   "trades": 0,
+   "capitalisation_mad": 27651855,
+   "shares": 1053404
+  },
+  {
+   "ticker": "DLM",
+   "status": "S",
+   "open": null,
+   "high": null,
+   "low": null,
+   "last": 40,
+   "reference": 40,
+   "var_pct": null,
+   "volume_mad": null,
+   "quantity": null,
+   "trades": 0,
+   "capitalisation_mad": 70000000,
+   "shares": 1750000
+  },
+  {
+   "ticker": "DRI",
+   "status": "NT",
+   "open": null,
+   "high": null,
+   "low": null,
+   "last": 4180,
+   "reference": 4180,
+   "var_pct": null,
+   "volume_mad": null,
+   "quantity": null,
+   "trades": 0,
+   "capitalisation_mad": 1247207500,
+   "shares": 298375
+  },
+  {
+   "ticker": "DWY",
+   "status": "T",
+   "open": 736,
+   "high": 745,
+   "low": 735,
+   "last": 745,
+   "reference": 747,
+   "var_pct": -0.2677376171,
+   "volume_mad": 73425,
+   "quantity": 99,
+   "trades": 11,
+   "capitalisation_mad": 1404892690,
+   "shares": 1885762
+  },
+  {
+   "ticker": "DYT",
+   "status": "T",
+   "open": 345,
+   "high": 350,
+   "low": 340,
+   "last": 345,
+   "reference": 341.1,
+   "var_pct": 1.1433597186,
+   "volume_mad": 89219.1,
+   "quantity": 261,
+   "trades": 16,
+   "capitalisation_mad": 344347950,
+   "shares": 998110
+  },
+  {
+   "ticker": "EQD",
+   "status": "NT",
+   "open": null,
+   "high": null,
+   "low": null,
+   "last": 1500,
+   "reference": 1500,
+   "var_pct": null,
+   "volume_mad": null,
+   "quantity": null,
+   "trades": 0,
+   "capitalisation_mad": 2505375000,
+   "shares": 1670250
+  },
+  {
+   "ticker": "FBR",
+   "status": "T",
+   "open": 317.15,
+   "high": 333,
+   "low": 317.15,
+   "last": 332,
+   "reference": 329,
+   "var_pct": 0.9118541033,
+   "volume_mad": 117111.1,
+   "quantity": 353,
+   "trades": 23,
+   "capitalisation_mad": 477742688,
+   "shares": 1438984
+  },
+  {
+   "ticker": "GAZ",
+   "status": "T",
+   "open": 3611,
+   "high": 3639,
+   "low": 3600,
+   "last": 3600,
+   "reference": 3610,
+   "var_pct": -0.2770083102,
+   "volume_mad": 454296,
+   "quantity": 126,
+   "trades": 12,
+   "capitalisation_mad": 12375000000,
+   "shares": 3437500
+  },
+  {
+   "ticker": "GTM",
+   "status": "T",
+   "open": 590,
+   "high": 594.8,
+   "low": 586,
+   "last": 587,
+   "reference": 589.1,
+   "var_pct": -0.3564759803,
+   "volume_mad": 6880953.1,
+   "quantity": 11686,
+   "trades": 150,
+   "capitalisation_mad": 35220000000,
+   "shares": 60000000
+  },
+  {
+   "ticker": "HPS",
+   "status": "T",
+   "open": 529,
+   "high": 529,
+   "low": 515.1,
+   "last": 517,
+   "reference": 506.7,
+   "var_pct": 2.0327610026,
+   "volume_mad": 4491441.6,
+   "quantity": 8685,
+   "trades": 46,
+   "capitalisation_mad": 3829000230,
+   "shares": 7406190
+  },
+  {
+   "ticker": "IAM",
+   "status": "T",
+   "open": 90.8,
+   "high": 91.5,
+   "low": 90,
+   "last": 90,
+   "reference": 90.98,
+   "var_pct": -1.0771598153,
+   "volume_mad": 6030656.47,
+   "quantity": 66603,
+   "trades": 261,
+   "capitalisation_mad": 79118580600,
+   "shares": 879095340
+  },
+  {
+   "ticker": "IBC",
+   "status": "T",
+   "open": 51,
+   "high": 51,
+   "low": 51,
+   "last": 51,
+   "reference": 50.1,
+   "var_pct": 1.7964071856,
+   "volume_mad": 204,
+   "quantity": 4,
+   "trades": 2,
+   "capitalisation_mad": 21291786,
+   "shares": 417486
+  },
+  {
+   "ticker": "IMO",
+   "status": "T",
+   "open": 90.95,
+   "high": 90.95,
+   "low": 90.3,
+   "last": 90.9,
+   "reference": 90.95,
+   "var_pct": -0.0549752611,
+   "volume_mad": 105150.41,
+   "quantity": 1159,
+   "trades": 22,
+   "capitalisation_mad": 818736300,
+   "shares": 9007000
+  },
+  {
+   "ticker": "INV",
+   "status": "T",
+   "open": 115.9,
+   "high": 115.9,
+   "low": 115.9,
+   "last": 115.9,
+   "reference": 112.6,
+   "var_pct": 2.9307282416,
+   "volume_mad": 115.9,
+   "quantity": 1,
+   "trades": 1,
+   "capitalisation_mad": 44356784.4,
+   "shares": 382716
+  },
+  {
+   "ticker": "JET",
+   "status": "T",
+   "open": 1498,
+   "high": 1498,
+   "low": 1440,
+   "last": 1440,
+   "reference": 1455,
+   "var_pct": -1.0309278351,
+   "volume_mad": 3353554,
+   "quantity": 2310,
+   "trades": 147,
+   "capitalisation_mad": 4362511680,
+   "shares": 3029522
+  },
+  {
+   "ticker": "LBV",
+   "status": "T",
+   "open": 3917,
+   "high": 3917,
+   "low": 3896,
+   "last": 3896,
+   "reference": 3887,
+   "var_pct": 0.2315410342,
+   "volume_mad": 206631,
+   "quantity": 53,
+   "trades": 6,
+   "capitalisation_mad": 11274856472,
+   "shares": 2893957
+  },
+  {
+   "ticker": "LES",
+   "status": "T",
+   "open": 284,
+   "high": 284,
+   "low": 278,
+   "last": 278,
+   "reference": 281.5,
+   "var_pct": -1.243339254,
+   "volume_mad": 77486,
+   "quantity": 278,
+   "trades": 19,
+   "capitalisation_mad": 7681559780,
+   "shares": 27631510
+  },
+  {
+   "ticker": "LHM",
+   "status": "T",
+   "open": 1606,
+   "high": 1610,
+   "low": 1602,
+   "last": 1609,
+   "reference": 1604,
+   "var_pct": 0.3117206983,
+   "volume_mad": 9478101,
+   "quantity": 5905,
+   "trades": 21,
+   "capitalisation_mad": 37700865160,
+   "shares": 23431240
+  },
+  {
+   "ticker": "M2M",
+   "status": "NT",
+   "open": null,
+   "high": null,
+   "low": null,
+   "last": 400,
+   "reference": 400,
+   "var_pct": null,
+   "volume_mad": null,
+   "quantity": null,
+   "trades": 0,
+   "capitalisation_mad": 259110800,
+   "shares": 647777
+  },
+  {
+   "ticker": "MAB",
+   "status": "NT",
+   "open": null,
+   "high": null,
+   "low": null,
+   "last": 893,
+   "reference": 893,
+   "var_pct": null,
+   "volume_mad": null,
+   "quantity": null,
+   "trades": 0,
+   "capitalisation_mad": 1236074526,
+   "shares": 1384182
+  },
+  {
+   "ticker": "MDP",
+   "status": "T",
+   "open": 23.64,
+   "high": 23.64,
+   "low": 21.35,
+   "last": 22.75,
+   "reference": 22.56,
+   "var_pct": 0.8421985816,
+   "volume_mad": 126755.81,
+   "quantity": 5738,
+   "trades": 52,
+   "capitalisation_mad": 108831973.25,
+   "shares": 4783823
+  },
+  {
+   "ticker": "MIC",
+   "status": "NT",
+   "open": null,
+   "high": null,
+   "low": null,
+   "last": 760,
+   "reference": 760,
+   "var_pct": null,
+   "volume_mad": null,
+   "quantity": null,
+   "trades": 0,
+   "capitalisation_mad": 1276800000,
+   "shares": 1680000
+  },
+  {
+   "ticker": "MLE",
+   "status": "NT",
+   "open": null,
+   "high": null,
+   "low": null,
+   "last": 374,
+   "reference": 374,
+   "var_pct": null,
+   "volume_mad": null,
+   "quantity": null,
+   "trades": 0,
+   "capitalisation_mad": 1038511232,
+   "shares": 2776768
+  },
+  {
+   "ticker": "MNG",
+   "status": "T",
+   "open": 1524,
+   "high": 1525,
+   "low": 1500,
+   "last": 1501,
+   "reference": 1501,
+   "var_pct": 0,
+   "volume_mad": 6649913,
+   "quantity": 4427,
+   "trades": 77,
+   "capitalisation_mad": 178088786760,
+   "shares": 118646760
+  },
+  {
+   "ticker": "MOX",
+   "status": "T",
+   "open": 347.1,
+   "high": 385,
+   "low": 347.1,
+   "last": 384,
+   "reference": 379.5,
+   "var_pct": 1.185770751,
+   "volume_mad": 12458.1,
+   "quantity": 33,
+   "trades": 10,
+   "capitalisation_mad": 312000000,
+   "shares": 812500
+  },
+  {
+   "ticker": "MSA",
+   "status": "T",
+   "open": 750,
+   "high": 753,
+   "low": 748,
+   "last": 750,
+   "reference": 750,
+   "var_pct": 0,
+   "volume_mad": 11279010.6,
+   "quantity": 15039,
+   "trades": 98,
+   "capitalisation_mad": 55046700000,
+   "shares": 73395600
+  },
+  {
+   "ticker": "MUT",
+   "status": "T",
+   "open": 229.9,
+   "high": 229.9,
+   "low": 225,
+   "last": 226.2,
+   "reference": 228.8,
+   "var_pct": -1.1363636364,
+   "volume_mad": 101504.6,
+   "quantity": 449,
+   "trades": 25,
+   "capitalisation_mad": 2091611909.4,
+   "shares": 9246737
+  },
+  {
+   "ticker": "NEJ",
+   "status": "NT",
+   "open": null,
+   "high": null,
+   "low": null,
+   "last": 5621,
+   "reference": 5621,
+   "var_pct": null,
+   "volume_mad": null,
+   "quantity": null,
+   "trades": 0,
+   "capitalisation_mad": 5751766944,
+   "shares": 1023264
+  },
+  {
+   "ticker": "NKL",
+   "status": "T",
+   "open": 46.54,
+   "high": 47.93,
+   "low": 46.54,
+   "last": 47.8,
+   "reference": 47.4,
+   "var_pct": 0.8438818565,
+   "volume_mad": 1039.26,
+   "quantity": 22,
+   "trades": 4,
+   "capitalisation_mad": 1434000000,
+   "shares": 30000000
+  },
+  {
+   "ticker": "OUL",
+   "status": "NT",
+   "open": null,
+   "high": null,
+   "low": null,
+   "last": 1190,
+   "reference": 1190,
+   "var_pct": null,
+   "volume_mad": null,
+   "quantity": null,
+   "trades": 0,
+   "capitalisation_mad": 2356200000,
+   "shares": 1980000
+  },
+  {
+   "ticker": "PRO",
+   "status": "NT",
+   "open": null,
+   "high": null,
+   "low": null,
+   "last": 1480,
+   "reference": 1480,
+   "var_pct": null,
+   "volume_mad": null,
+   "quantity": null,
+   "trades": 0,
+   "capitalisation_mad": 1480000000,
+   "shares": 1000000
+  },
+  {
+   "ticker": "RDS",
+   "status": "T",
+   "open": 161,
+   "high": 162.5,
+   "low": 158.6,
+   "last": 162,
+   "reference": 161.7,
+   "var_pct": 0.185528757,
+   "volume_mad": 805619.25,
+   "quantity": 5013,
+   "trades": 71,
+   "capitalisation_mad": 4245833700,
+   "shares": 26208850
+  },
+  {
+   "ticker": "REB",
+   "status": "T",
+   "open": 93.8,
+   "high": 93.8,
+   "low": 93.8,
+   "last": 93.8,
+   "reference": 88.5,
+   "var_pct": 5.988700565,
+   "volume_mad": 2251.2,
+   "quantity": 24,
+   "trades": 2,
+   "capitalisation_mad": 16551572.8,
+   "shares": 176456
+  },
+  {
+   "ticker": "RIS",
+   "status": "T",
+   "open": 297.1,
+   "high": 302,
+   "low": 297.1,
+   "last": 300,
+   "reference": 300,
+   "var_pct": 0,
+   "volume_mad": 382627.6,
+   "quantity": 1279,
+   "trades": 58,
+   "capitalisation_mad": 4803639600,
+   "shares": 16012132
+  },
+  {
+   "ticker": "S2M",
+   "status": "T",
+   "open": 477.2,
+   "high": 489,
+   "low": 467,
+   "last": 476,
+   "reference": 487.05,
+   "var_pct": -2.2687609075,
+   "volume_mad": 403612.65,
+   "quantity": 847,
+   "trades": 36,
+   "capitalisation_mad": 386545320,
+   "shares": 812070
+  },
+  {
+   "ticker": "SAH",
+   "status": "NT",
+   "open": null,
+   "high": null,
+   "low": null,
+   "last": 2918,
+   "reference": 2918,
+   "var_pct": null,
+   "volume_mad": null,
+   "quantity": null,
+   "trades": 0,
+   "capitalisation_mad": 15587588332,
+   "shares": 5341874
+  },
+  {
+   "ticker": "SAM",
+   "status": "S",
+   "open": null,
+   "high": null,
+   "low": null,
+   "last": 127.8,
+   "reference": 127.8,
+   "var_pct": null,
+   "volume_mad": null,
+   "quantity": null,
+   "trades": 0,
+   "capitalisation_mad": 1520777187,
+   "shares": 11899665
+  },
+  {
+   "ticker": "SBM",
+   "status": "NT",
+   "open": null,
+   "high": null,
+   "low": null,
+   "last": 2080,
+   "reference": 2080,
+   "var_pct": null,
+   "volume_mad": null,
+   "quantity": null,
+   "trades": 0,
+   "capitalisation_mad": 5885678240,
+   "shares": 2829653
+  },
+  {
+   "ticker": "SID",
+   "status": "T",
+   "open": 1646,
+   "high": 1648,
+   "low": 1606,
+   "last": 1648,
+   "reference": 1620,
+   "var_pct": 1.7283950617,
+   "volume_mad": 331634,
+   "quantity": 204,
+   "trades": 25,
+   "capitalisation_mad": 6427200000,
+   "shares": 3900000
+  },
+  {
+   "ticker": "SLF",
+   "status": "T",
+   "open": 419,
+   "high": 419,
+   "low": 419,
+   "last": 419,
+   "reference": 419.5,
+   "var_pct": -0.1191895113,
+   "volume_mad": 48185,
+   "quantity": 115,
+   "trades": 4,
+   "capitalisation_mad": 1309005861,
+   "shares": 3124119
+  },
+  {
+   "ticker": "SMI",
+   "status": "T",
+   "open": 5631,
+   "high": 5760,
+   "low": 5630,
+   "last": 5760,
+   "reference": 5620,
+   "var_pct": 2.4911032028,
+   "volume_mad": 613170,
+   "quantity": 107,
+   "trades": 31,
+   "capitalisation_mad": 9475718400,
+   "shares": 1645090
+  },
+  {
+   "ticker": "SNA",
+   "status": "T",
+   "open": 47.05,
+   "high": 48,
+   "low": 47,
+   "last": 47.85,
+   "reference": 47.94,
+   "var_pct": -0.1877346683,
+   "volume_mad": 138454.02,
+   "quantity": 2928,
+   "trades": 57,
+   "capitalisation_mad": 846712927.5,
+   "shares": 17695150
+  },
+  {
+   "ticker": "SNP",
+   "status": "T",
+   "open": 289.95,
+   "high": 289.95,
+   "low": 278.6,
+   "last": 283.95,
+   "reference": 280.5,
+   "var_pct": 1.2299465241,
+   "volume_mad": 361960.15,
+   "quantity": 1295,
+   "trades": 23,
+   "capitalisation_mad": 681480000,
+   "shares": 2400000
+  },
+  {
+   "ticker": "SOT",
+   "status": "T",
+   "open": 314.65,
+   "high": 314.65,
+   "low": 299.95,
+   "last": 308,
+   "reference": 307.5,
+   "var_pct": 0.162601626,
+   "volume_mad": 291277.7,
+   "quantity": 955,
+   "trades": 39,
+   "capitalisation_mad": 11799326000,
+   "shares": 38309500
+  },
+  {
+   "ticker": "SRM",
+   "status": "NT",
+   "open": null,
+   "high": null,
+   "low": null,
+   "last": 449,
+   "reference": 449,
+   "var_pct": null,
+   "volume_mad": null,
+   "quantity": null,
+   "trades": 0,
+   "capitalisation_mad": 143680000,
+   "shares": 320000
+  },
+  {
+   "ticker": "STR",
+   "status": "T",
+   "open": 152.55,
+   "high": 157.45,
+   "low": 150,
+   "last": 157.3,
+   "reference": 153,
+   "var_pct": 2.8104575163,
+   "volume_mad": 31682.25,
+   "quantity": 209,
+   "trades": 17,
+   "capitalisation_mad": 196391409.5,
+   "shares": 1248515
+  },
+  {
+   "ticker": "T2S",
+   "status": "T",
+   "open": 206.1,
+   "high": 210,
+   "low": 205.3,
+   "last": 209,
+   "reference": 208,
+   "var_pct": 0.4807692308,
+   "volume_mad": 1386481,
+   "quantity": 6658,
+   "trades": 135,
+   "capitalisation_mad": 4720080662,
+   "shares": 22584118
+  },
+  {
+   "ticker": "TGC",
+   "status": "T",
+   "open": 640.5,
+   "high": 649,
+   "low": 634.9,
+   "last": 634.9,
+   "reference": 636,
+   "var_pct": -0.1729559748,
+   "volume_mad": 2615234.2,
+   "quantity": 4112,
+   "trades": 220,
+   "capitalisation_mad": 22014733386.8,
+   "shares": 34674332
+  },
+  {
+   "ticker": "TMA",
+   "status": "T",
+   "open": 1370,
+   "high": 1370,
+   "low": 1345,
+   "last": 1345,
+   "reference": 1345,
+   "var_pct": 0,
+   "volume_mad": 362961,
+   "quantity": 269,
+   "trades": 34,
+   "capitalisation_mad": 12051200000,
+   "shares": 8960000
+  },
+  {
+   "ticker": "TQM",
+   "status": "T",
+   "open": 1595,
+   "high": 1640,
+   "low": 1595,
+   "last": 1640,
+   "reference": 1600,
+   "var_pct": 2.5,
+   "volume_mad": 370661,
+   "quantity": 227,
+   "trades": 29,
+   "capitalisation_mad": 38685208880,
+   "shares": 23588542
+  },
+  {
+   "ticker": "UMR",
+   "status": "NT",
+   "open": null,
+   "high": null,
+   "low": null,
+   "last": 169,
+   "reference": 169,
+   "var_pct": null,
+   "volume_mad": null,
+   "quantity": null,
+   "trades": 0,
+   "capitalisation_mad": 1928945720,
+   "shares": 11413880
+  },
+  {
+   "ticker": "VCN",
+   "status": "T",
+   "open": 303.95,
+   "high": 303.95,
+   "low": 295.1,
+   "last": 300,
+   "reference": 296,
+   "var_pct": 1.3513513514,
+   "volume_mad": 282843,
+   "quantity": 945,
+   "trades": 47,
+   "capitalisation_mad": 3077655000,
+   "shares": 10258850
+  },
+  {
+   "ticker": "WAA",
+   "status": "T",
+   "open": 4900,
+   "high": 4952,
+   "low": 4850,
+   "last": 4952,
+   "reference": 4800,
+   "var_pct": 3.1666666667,
+   "volume_mad": 7592608,
+   "quantity": 1534,
+   "trades": 7,
+   "capitalisation_mad": 17332000000,
+   "shares": 3500000
+  },
+  {
+   "ticker": "ZDJ",
+   "status": "T",
+   "open": 259.95,
+   "high": 259.95,
+   "low": 231,
+   "last": 232.1,
+   "reference": 240.05,
+   "var_pct": -3.3118100396,
+   "volume_mad": 2509.1,
+   "quantity": 10,
+   "trades": 7,
+   "capitalisation_mad": 132958252.9,
+   "shares": 572849
+  }
+ ],
+ "fingerprint": "b97504dd54005bf6",
+ "same_prices_as_previous_session": false,
+ "fetched_at_utc": "2026-10-16T19:37:17+00:00"
+}
