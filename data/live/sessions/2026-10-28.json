@@ -526,8 +526,8 @@
   }
  ],
  "communique_links": [
-  "/sites/default/files/pemetteur/2026-10/cp_cartier-saada_pw2026-2%29.pdf",
-  "/sites/default/files/pemetteur/2026-10/cp_srm_erratum-s1-2026.pdf",
+  "/sites/default/files/pemetteur/2026-10/cp_cartier-saada_avis_ago101126.pdf",
+  "/sites/default/files/pemetteur/2026-10/cp_cartier-saada_gouvernance.pdf",
   "/sites/default/files/pemetteur/2026-10/cp_taqa_morocco_post_ag_obligataires_26_10_26.pdf",
   "/sites/default/files/pemetteur/2026-10/ni_cmt_opa_032_2026.pdf",
   "https://www.casablanca-bourse.com/sites/default/files/pemetteur/2026-10/note-d%27op%C3%A9ration-jet-energy.pdf"
@@ -1752,5 +1752,5 @@
  ],
  "fingerprint": "ef6823965b0b94fe",
  "same_prices_as_previous_session": false,
- "fetched_at_utc": "2026-10-28T21:12:58+00:00"
+ "fetched_at_utc": "2026-10-28T22:45:12+00:00"
 }
