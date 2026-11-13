@@ -527,8 +527,8 @@
  ],
  "communique_links": [
   "/sites/default/files/pemetteur/2026-11/cp_afi_t3_26.pdf",
-  "/sites/default/files/pemetteur/2026-11/cp_bcp_t3_26.pdf",
   "/sites/default/files/pemetteur/2026-11/cp_delta_holding_t3_26.pdf",
+  "/sites/default/files/pemetteur/2026-11/cp_fec_t3_26.pdf",
   "/sites/default/files/pemetteur/2026-11/cp_taqa_morocco_t3_26.pdf",
   "https://www.casablanca-bourse.com/sites/default/files/pemetteur/2026-10/laprophan_ipo_no_033_2026.pdf",
   "https://www.casablanca-bourse.com/sites/default/files/pemetteur/2026-10/note-d%27op%C3%A9ration-jet-energy.pdf"
@@ -1753,5 +1753,5 @@
  ],
  "fingerprint": "33b6b74a2b4ab55c",
  "same_prices_as_previous_session": false,
- "fetched_at_utc": "2026-11-13T22:03:38+00:00"
+ "fetched_at_utc": "2026-11-13T23:46:09+00:00"
 }
